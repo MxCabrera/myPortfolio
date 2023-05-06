@@ -28,108 +28,59 @@
 @media (max-width: 768px) {
 
    // ~ navigations styles ~ //
-      .navbar {
-         .hiddenFlex {
-            .visibility,
-            .display, 
-            .hamburger {
-               display: block;
-            }
-            .visibility {
-               visibility: hidden;
-            }
-            .display a {
-               color: black;
-            }
+   .navbar {
+      .hiddenFlex {
+         .visibility,
+         .display, 
+         .hamburger {
+            display: block;
          }
-         .nav-menu {
-            background-color: white;
-            position: fixed;
-            left: -102%;
-            top: 60px;
-            gap: 0;
-            padding: 10px 0;
-            text-align: center;
-            transition: 0.3s;
-            .nav-item {
-               padding: 10px;
-            }
+         .visibility {
+            visibility: hidden;
          }
-         .nav-menu.active {
-            background-color: white;
-            left: 2px;
-            border-top: 1px solid black;
-         }
-         .flex {
-            flex-direction: column;
-         }
-         .navContainer {
-            width: 100%;
-            h2 {
-               width: 100%;
-               text-align: center;
-               display: none;
-            }
-            .hamburger {
-               display: block;
-               font-size: 1.5rem;
-               color: black;
-            }
+         .display a {
+            color: black;
          }
       }
-   // // ~ navigation styles ~ //
-   // .navbar {
-   //    .hiddenFlex {
-   //       .visibility,
-   //       .display,
-   //       .hamburger {
-   //          display: block;
-   //       }
-
-   //       .visibility {
-   //          visibility: hidden;
-   //       }
-   //    }
-
-   //    .nav-menu {
-   //       position: fixed;
-   //       left: -102%;
-   //       top: 88px;
-   //       gap: 0;
-   //       padding: 10px 0;
-   //       text-align: center;
-   //       transition: 0.3s;
-
-   //       .nav-item {
-   //          padding: 10px;
-   //       }
-   //    }
-
-   //    .nav-menu.active {
-   //       background-color: $tertiary;
-   //       left: 2px;
-   //       border-top: 1px solid $primary;
-   //    }
-
-   //    .flex {
-   //       flex-direction: column;
-   //    }
-
-   //    .navContainer {
-   //       width: 100%;
-
-   //       h2 {
-   //          width: 100%;
-   //          text-align: center;
-   //          display: none;
-   //       }
-
-   //       .hamburger {
-   //          display: block;
-   //          font-size: 1.5rem;
-   //       }
-   //    }
-   // }
+      .nav-menu {
+         background-color: white;
+         position: fixed;
+         left: -103%;
+         top: 59px;
+         gap: 0;
+         padding: 10px 0;
+         text-align: center;
+         transition: 0.3s;
+         .nav-item {
+            padding: 10px;
+            width: 90%;
+            // border-bottom: 1px solid black;
+         }
+      }
+      .nav-menu.active {
+         background-color: white;
+         left: 2px;
+         border-top: 1px solid black;
+         height: 60vh;
+         justify-content: space-evenly;
+      }
+      .flex {
+         flex-direction: column;
+      }
+      .navContainer {
+         width: 100%;
+         h2 {
+            width: 100%;
+            text-align: center;
+            display: none;
+         }
+         .hamburger {
+            display: block;
+            font-size: 1.5rem;
+            color: black;
+         }
+      }
+   }
 }
 
 // ~ 768px media query styles ends ~ //

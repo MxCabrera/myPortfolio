@@ -1,0 +1,21 @@
+header {
+   background-color: limegreen;
+   height: 90vh;
+   padding: 4rem 0;
+   div {      
+      h1 {
+         margin: 0 auto;
+         font-size: 4rem;
+         font-family: 'Antonio', sans-serif;
+         text-transform: uppercase;
+         padding: 2rem 0;
+         width: 50%;
+         text-align: center;
+      }
+      h3 {
+         text-align: center;
+         font-family: 'Jost', sans-serif;
+         color: $primary;
+      }
+   }
+}

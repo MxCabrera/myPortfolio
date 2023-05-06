@@ -4,15 +4,19 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link type="image/png" href="assets/logo.png" rel="icon">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;400;700&family=Jost:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet">
+
    <link rel="stylesheet" href="./styles/styles.css">
    <script src="https://kit.fontawesome.com/c9714a9747.js" crossorigin="anonymous"></script>
    <title>MEC | Web Development</title>
 </head>
 
 <body>
-   <!-- header starts here -->
-   <header>
-      <div class="wrapper">
    <nav class="navbar">
       <!-- wrapper -->
       <div class="wrapper">
@@ -20,57 +24,164 @@
             <div class="visibility"></div>
             <h2 class="display"><a href="#">MEC</a></h2>
             <ul class="flex navContainer nav-menu">
-               <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
-               <li class="nav-item"><a class="nav-link" href="./index.html">About</a></li>
-               <li class="nav-item"><a class="nav-link" href="./index.html">Projects</a></li>
+               <li class="nav-item"><a class="nav-link listItem" href="#about">About</a></li>
+               <li class="nav-item"><a class="nav-link listItem" href="#projects">Projects</a></li>
                <h2><a class="nav-branding" href="#">MEC</a></h2>
-               <li class="nav-item"><a class="nav-link" href="./blog.html">Skills</a></li>
-               <li class="nav-item"><a class="nav-link" href="./blog.html">Blog</a></li>
-               <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+               <li class="nav-item"><a class="nav-link listItem" href="#skills">Skills</a></li>
+               <li class="nav-item"><a class="nav-link listItem" href="#contact">Contact</a></li>
             </ul>
             <!-- hamburger menu icon for tablet view -->
             <i class="fas fa-bars hamburger"></i>
-            <!-- <div class="hamburger">
-                  <span class="bar"></span>
-                  <span class="bar"></span>
-                  <span class="bar"></span>
-               </div> -->
          </div>
-   
-   
       </div><!-- wrapper ends -->
-   
    </nav> <!-- navigation ends -->
-         <h1 class="miguel">Miguel Cabrera</h1>
+
+   <!-- header starts here -->
+   <header>
+      <div class="wrapper">
+         <div>
+            <h1 class="miguel">Miguel Cabrera</h1>
+            <h3>Web Developer</h3>
+         </div>
       </div>
    </header>
    <!-- main starts here -->
    <main>
-      <div class="aboutSection">
+      <section class="aboutSection" id="about">
          <div class="wrapper">
-            
+            <div class="aboutPic"><img src="./assets/headshot.png" alt="main headshot photo"></div>
+            <h2>About Me</h2>
+            <div class="aboutInfo">
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta laudantium illo veritatis temporibus aperiam numquam unde eos asperiores harum qui hic doloribus blanditiis porro beatae, ipsum ipsam rerum atque soluta.</p>
+            </div>
          </div>
-      </div>
-      <div class="projectSection">
+      </section>
+      <section class="projectSection" id="projects">
          <div class="wrapper">
+            <h2>Projects</h2>
+            <div class="projectContainer">
+               <div class="projectImg"><img src="" alt=""></div>
+               <div class="projectInfo">
+                  <h3 class="projectName"></h3>
+                  <div class="langUsed"></div>
+                  <div class="projectInfo"></div>
+                  <div class="projectButtons"><button></button><a href=""></a></div>
+               </div>
+            </div>
+            <div class="projectContainer">
+               <div class="projectImg"></div>
+               <div class="projectInfo">
+                  <h3 class="projectName"></h3>
+                  <div class="langUsed"></div>
+                  <div class="projectInfo"></div>
+                  <div class="projectButtons"><button></button><a href=""></a></div>
+               </div>
+            </div>
+            <div class="projectContainer">
+               <div class="projectImg"></div>
+               <div class="projectInfo">
+                  <h3 class="projectName"></h3>
+                  <div class="langUsed"></div>
+                  <div class="projectInfo"></div>
+                  <div class="projectButtons"><button></button><a href=""></a></div>
+               </div>
+            </div>
+            <div class="projectContainer">
+               <div class="projectImg"></div>
+               <div class="projectInfo">
+                  <h3 class="projectName"></h3>
+                  <div class="langUsed"></div>
+                  <div class="projectInfo"></div>
+                  <div class="projectButtons"><button></button><a href=""></a></div>
+               </div>
+            </div>
+            <div class="projectContainer">
+               <div class="projectImg"></div>
+               <div class="projectInfo">
+                  <h3 class="projectName"></h3>
+                  <div class="langUsed"></div>
+                  <div class="projectInfo"></div>
+                  <div class="projectButtons"><button></button><a href=""></a></div>
+               </div>
+            </div>
+            <div class="projectContainer">
+               <div class="projectImg"></div>
+               <div class="projectInfo">
+                  <h3 class="projectName"></h3>
+                  <div class="langUsed"></div>
+                  <div class="projectInfo"></div>
+                  <div class="projectButtons"><button></button><a href=""></a></div>
+               </div>
+            </div>
 
          </div>
-      </div>
-      <div class="skillsSection">
+      </section>
+      <section class="skillsSection" id="skills">
          <div class="wrapper">
+            <h2>Skills</h2>
+            <div class="skillsContainer">
+               <div class="languageBox">
+                  <i class="fab fa-css3-alt"></i>
+                  <span class="langName">CSS3</span>
+               </div>
+               <div class="languageBox">
+                  <i class="fab fa-html5"></i>
+                  <span class="langName">HTML5</span>
+               </div>
+               <div class="languageBox">
+                  <i class="fab fa-js"></i>
+                  <span class="langName">JavaScript</span>
+               </div>
+               <div class="languageBox">
+                  <i class="devicon-jquery-plain"></i>
+                  <span class="langName">jQuery</span>
+               </div>
+               <div class="languageBox">
+                  <i class="fab fa-react"></i>
+                  <span class="langName">React</span>
+               </div>
+               <div class="languageBox">
+                  <i class="fab fa-sass"></i>
+                  <span class="langName">Sass</span>
+               </div>
+               <div class="languageBox">
+                  <i class="fab fa-github"></i>
+                  <span class="langName">Github</span>
+               </div>
+               <div class="languageBox">
+                  <i class="fas fa-fire-alt"></i>
+                  <span class="langName">FireBase</span>
+               </div>
+               <div class="languageBox">
+                  <i class="fab fa-git-alt"></i>
+                  <span class="langName">Git</span>
+               </div>
+               <div class="languageBox">
+                  <i class="fas fa-laptop"></i>
+                  <span class="langName">Responsive</span>
+               </div>
+               <div class="languageBox">
+                  <i class="fas fa-terminal"></i>
+                  <span class="langName">Terminal</span>
+               </div>
+               <div class="languageBox">
+                  <i class="fas fa-universal-access"></i>
+                  <span class="langName">Accessibility</span>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- <div class="blogSection" id="blog">
+         <div class="wrapper">
+            <h2>Blog</h2>
 
          </div>
-      </div>
-      <div class="blogSection">
+      </div> -->
+      <section class="contactSection" id="contact">
          <div class="wrapper">
-
+            <h2>Contact</h2>
          </div>
-      </div>
-      <div class="contactSection">
-         <div class="wrapper">
-
-         </div>
-      </div>
+      </section>
 
    </main>
    <!-- footer starts here -->

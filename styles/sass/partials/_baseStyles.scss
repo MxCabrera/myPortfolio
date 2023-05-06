@@ -1,3 +1,6 @@
+   //  font-family: 'Antonio', sans-serif;
+   //  font-family: 'Jost', sans-serif;
+
 // ~ wrapper to contain items ~ //
 .wrapper {
    max-width: 1260px;
@@ -22,4 +25,13 @@ li {
 
 a {
    text-decoration: none;
+}
+
+.aboutSection,
+.projectSection,
+.skillsSection,
+.blogSection,
+.contactSection {
+   height: 100vh;
+   padding-top: 4rem;
 }

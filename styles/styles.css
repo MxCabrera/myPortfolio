@@ -263,8 +263,18 @@ a {
   text-decoration: none;
 }
 
+.aboutSection,
+.projectSection,
+.skillsSection,
+.blogSection,
+.contactSection {
+  height: 100vh;
+  padding-top: 4rem;
+}
+
 .navbar {
   background-color: white;
+  font-family: "Jost", sans-serif;
   position: sticky;
   top: 0;
   z-index: 10;
@@ -308,6 +318,68 @@ a {
   color: red;
 }
 
+header {
+  background-color: limegreen;
+  height: 90vh;
+  padding: 4rem 0;
+}
+header div h1 {
+  margin: 0 auto;
+  font-size: 4rem;
+  font-family: "Antonio", sans-serif;
+  text-transform: uppercase;
+  padding: 2rem 0;
+  width: 50%;
+  text-align: center;
+}
+header div h3 {
+  text-align: center;
+  font-family: "Jost", sans-serif;
+  color: #111111;
+}
+
+.aboutSection {
+  background-color: #111111;
+}
+.aboutSection h2 {
+  color: white;
+}
+.aboutSection .aboutInfo p {
+  color: white;
+}
+
+.projectSection {
+  background-color: #070707;
+}
+.projectSection h2 {
+  color: white;
+}
+
+.skillsSection {
+  background-color: #111111;
+  color: white;
+}
+.skillsSection .skillsContainer i {
+  color: white;
+}
+
+.contactSection {
+  background-color: #070707;
+}
+.contactSection h2 {
+  color: white;
+}
+
+footer {
+  background-color: #070707;
+}
+footer .wrapper p {
+  color: white;
+  text-align: center;
+  font-family: "Jost", sans-serif;
+  padding: 2rem 0;
+}
+
 @media (max-width: 1140px) {
   .navbar .navContainer {
     width: 62%;
@@ -333,8 +405,8 @@ a {
   .navbar .nav-menu {
     background-color: white;
     position: fixed;
-    left: -102%;
-    top: 60px;
+    left: -103%;
+    top: 59px;
     gap: 0;
     padding: 10px 0;
     text-align: center;
@@ -343,11 +415,16 @@ a {
   }
   .navbar .nav-menu .nav-item {
     padding: 10px;
+    width: 90%;
   }
   .navbar .nav-menu.active {
     background-color: white;
     left: 2px;
     border-top: 1px solid black;
+    height: 60vh;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
   .navbar .flex {
     -webkit-box-orient: vertical;
