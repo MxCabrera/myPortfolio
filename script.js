@@ -25,40 +25,41 @@ app.hamburger.addEventListener('click', () => {
 // project array containing the information of each project
 app.projects = [
 {
-   name: 'project One',
+   name: 'The Ultimate Watch List App',
    image: 'imagePath',
-   summary: 'summaryParagraph',
-   livelink: 'https://www.project.com/'
+   summary: 'An app that utilizes 2 TV Maze API endpoints to create a user search feature to check the best tv shows based off of what the user searches, as well as a show all tv shows in pages features',
+   livelink: 'https://theultimatewatchlist.netlify.app/'
 },
 {
-   name: 'project Two',
+   name: 'Battle Rockets',
    image: 'imagePath',
-   summary: 'summaryParagraph',
-   livelink: 'https://www.project.com/'
+   summary: 'A 2-player battleship-style game. Destroy your opponents rockets before they do! Take turns between your friend and each hit displays info from the SpaceX API.',
+   livelink: 'https://rocketbattle.github.io/battleRockets/'
+   
 },
 {
-   name: 'project Three',
+   name: 'Which GOAT Are You?',
    image: 'imagePath',
-   summary: 'summaryParagraph',
-   livelink: 'https://www.project.com/'
+   summary: 'The Greatest of All Time. Find out which NBA legend your personality is linked closest to with this personality quiz. Created using Vanilla JavaScript.',
+   livelink: 'https://mxcabrera.github.io/miguelCabreraProjectThree/'
 },
 {
-   name: 'project Four',
+   name: 'Trivia TV',
    image: 'imagePath',
-   summary: 'summaryParagraph',
-   livelink: 'https://www.project.com/'
+   summary: 'Do you know your TV facts? Try this quiz that generates 10 random questions gathered from the Trivia API. Score well, a gif is given based on the amount you get right!',
+   livelink: 'https://alanandmiguelprojectfour.github.io/triviaApp/'
 },
 {
-   name: 'project Five',
+   name: `Sophie's Website`,
    image: 'imagePath',
-   summary: 'summaryParagraph',
-   livelink: 'https://www.project.com/'
+   summary: 'A personal website for an aspiring photographer',
+   livelink: 'https://sophie-official-project-one.netlify.app/'
 },
 {
-   name: 'project Six',
+   name: 'Lash Extension Company',
    image: 'imagePath',
-   summary: 'summaryParagraph',
-   livelink: 'https://www.project.com/'
+   summary: 'In need of a beauty service or product? Check out SoBeautiful&Co Beauty Bar where they specialize in Eyelash extensions, lamination, teeth whitening, tanning spray, make up facials and more! Book now! ',
+   livelink: 'https://so-beautiful-co.netlify.app/'
 }];
 
 // test to see if items append properly

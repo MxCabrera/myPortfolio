@@ -42,6 +42,7 @@
          <div>
             <h1 class="miguel">Miguel Cabrera</h1>
             <h3>Web Developer</h3>
+            <div>V</div>
          </div>
       </div>
    </header>
@@ -49,7 +50,7 @@
    <main>
       <section class="aboutSection" id="about">
          <div class="wrapper">
-            <div class="aboutPic"><img src="./assets/headshot.png" alt="main headshot photo"></div>
+            <div class="aboutPic"><img src="./assets/IMG_0382.jpg" alt="main headshot photo"></div>
             <h2>About Me</h2>
             <div class="aboutInfo">
                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta laudantium illo veritatis temporibus aperiam numquam unde eos asperiores harum qui hic doloribus blanditiis porro beatae, ipsum ipsam rerum atque soluta.</p>
@@ -180,6 +181,33 @@
       <section class="contactSection" id="contact">
          <div class="wrapper">
             <h2>Contact</h2>
+            <div class="socialContainer">
+               <a href=""><i class="fab fa-linkedin">
+                  <span class="iconz">LinkedIn</span>
+               </i></a>
+               <a href=""><i class="fab fa-twitter">
+                  <span class="iconz">Twitter</span>
+               </i></a>
+               <a href=""><i class="fab fa-github">
+                  <span class="iconz">GitHub</span>
+               </i></a>
+               <a href="">Email</a>
+            </div>
+            <div class="contactMessage">
+               <p>Hey there! Would love to hear from you, if you have any questions about my portfolio or project, don't hesitate to ask!</p>
+            </div>
+            <form action="https://formspree.io/f/mqkonndo" method="POST">
+               <label>
+                  Your email:
+                  <input type="email" name="email">
+               </label>
+               <label>
+                  Your message:
+                  <textarea name="message"></textarea>
+               </label>
+               <!-- your other form fields go here -->
+               <button type="submit">Send</button>
+            </form>
          </div>
       </section>
 

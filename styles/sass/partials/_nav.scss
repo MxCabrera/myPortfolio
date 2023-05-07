@@ -1,6 +1,6 @@
 
 .navbar {
-   background-color: white;
+   background-color: $secondary;
    //  font-family: 'Antonio', sans-serif;
    font-family: 'Jost', sans-serif;
    position: sticky;
@@ -24,14 +24,14 @@
       margin: 0 auto;
       align-items: center;
       h2 a {
-         color: black;
+         color: white;
       }
       li {
          text-transform: uppercase;
          a {
-            color: black;
+            color: white;
             &:hover {
-               color: red;
+               color: limegreen;
             }
          }
       }

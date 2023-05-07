@@ -1,9 +1,31 @@
 .skillsSection {
    background-color: $primary;
    color: white;
+   h2 {
+      // text-align: center;
+      text-transform: uppercase;
+   }
    .skillsContainer {
+      padding-top: 2rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .languageBox {
+         display: flex;
+         flex-direction: column;
+         height: 15vh;
+         width: 25%;
+         margin-top: 1.5rem;
+      }
       i {
          color: white;
+         text-align: center;
+         font-size: 2rem;
+      }
+      span {
+         text-align: center;
+         text-transform: uppercase;
+         margin-top: 0.7rem;
       }
    }
 }
