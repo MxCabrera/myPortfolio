@@ -22,6 +22,11 @@ app.hamburger.addEventListener('click', () => {
    app.navMenu.classList.toggle('active');
 });
 
+app.arrow = document.querySelector('.bounce-1');
+app.arrow.addEventListener('click', ()=>{
+   console.log('it worked!')
+})
+
 // project array containing the information of each project
 app.projects = [
 {

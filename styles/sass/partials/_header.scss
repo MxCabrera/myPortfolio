@@ -12,17 +12,65 @@ header {
          padding: rem 0;
          width: 50%;
          text-align: center;
+         text-shadow: 3px 3px 2px white;
       }
       h3 {
          text-align: center;
          font-family: 'Jost', sans-serif;
          color: $primary;
          margin-top: 2rem;
-         font-size: 2rem;
+         font-size: 1.5rem;
+         text-transform: uppercase;
       }
-      div {
+      .stage {
          text-align: center;
          width: 100%;
+         height: 0;
+         a {
+            width: 100%;
+            color: $secondary;
+         }
+         i {
+            font-size: 3rem;
+            cursor:pointer
+         }
       }
+   }
+}
+
+// header arrow effect
+
+.stage {
+   display: flex;
+   height: 330px;
+   width: 100%;
+}
+
+.box {
+   align-self: flex-end;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   height: 200px;
+   margin: 0 auto 0 auto;
+   transform-origin: bottom;
+   width: 200px;
+}
+
+.bounce-1 {
+   animation-name: bounce-1;
+   animation-timing-function: linear;
+}
+
+@keyframes bounce-1 {
+   0% {
+      transform: translateY(50px);
+   }
+
+   50% {
+      transform: translateY(0px);
+   }
+
+   100% {
+      transform: translateY(50px);
    }
 }

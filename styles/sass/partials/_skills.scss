@@ -21,6 +21,10 @@
          color: white;
          text-align: center;
          font-size: 2rem;
+         &:hover {
+            text-shadow: 3px 3px 2px white;
+            color: limegreen;
+         }
       }
       span {
          text-align: center;

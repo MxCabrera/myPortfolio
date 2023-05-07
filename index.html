@@ -42,18 +42,33 @@
          <div>
             <h1 class="miguel">Miguel Cabrera</h1>
             <h3>Web Developer</h3>
-            <div>V</div>
+            <div class="stage">
+               <a href="#down">
+                  <i class="fas fa-sort-down box bounce-1"></i>
+               </a>
+            </div>
          </div>
+         <i class="fas fa-sort-up scrollUp"></i>
       </div>
    </header>
    <!-- main starts here -->
-   <main>
+   <main id="down">
       <section class="aboutSection" id="about">
          <div class="wrapper">
-            <div class="aboutPic"><img src="./assets/IMG_0382.jpg" alt="main headshot photo"></div>
             <h2>About Me</h2>
+            <div class="aboutPic">
+               <img src="./assets/IMG_0382.jpg" alt="main headshot photo">
+            </div>
             <div class="aboutInfo">
-               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta laudantium illo veritatis temporibus aperiam numquam unde eos asperiores harum qui hic doloribus blanditiis porro beatae, ipsum ipsam rerum atque soluta.</p>
+               <p>Hey, thank you for stopping by to read this! I'm Miguel (he/him). I'm a front end developer with major passions for building and creating. I graduated from Juno College immersive Bootcamp for Web Development. From this experience, I've learned and gained a strong understanding in coding <span>languages</span>, which has allowed me to create responsive, user-friendly, clean and accessible web apps with  dreams of eventually becoming a Full Stack Developer.</p>
+
+               <p> Prior to this bootcamp, I graduated with a background in Architectural Technology & shortly after worked for a tech company that specialized in 3D modeling & Virtual Reality (VR/AR). Working there taught me how to respond efficiently when working in a high pressure environment. I've also learned to become an adaptable team member and communicate well in a group or pair.</p>
+
+               <p>Outside of code, I enjoy playing basketball, sketching, and hanging out with my Border Collie, Kaia.
+               
+               With these experiences, I have grown dedicated to my craft and aim to create websites that provide clients with intuitive designs, functionality and accessibility. Coding has allowed me to express my creativity and develop a strong foundation to build on. I am excited to begin this new journey with a positive attitude and an open mindset.
+               </p>
+               <button><a href="assets/MiguelCabrera.pdf" target="_blank">Resume</a></button>
             </div>
          </div>
       </section>
@@ -111,10 +126,9 @@
                   <h3 class="projectName"></h3>
                   <div class="langUsed"></div>
                   <div class="projectInfo"></div>
-                  <div class="projectButtons"><button></button><a href=""></a></div>
+                  <div class="projectButtons"><button>Hey</button><a href=""></a></div>
                </div>
             </div>
-
          </div>
       </section>
       <section class="skillsSection" id="skills">
@@ -134,7 +148,7 @@
                   <span class="langName">JavaScript</span>
                </div>
                <div class="languageBox">
-                  <i class="devicon-jquery-plain"></i>
+                  <i class="fas fa-code"></i>
                   <span class="langName">jQuery</span>
                </div>
                <div class="languageBox">
@@ -183,28 +197,26 @@
             <h2>Contact</h2>
             <div class="socialContainer">
                <a href=""><i class="fab fa-linkedin">
-                  <span class="iconz">LinkedIn</span>
+                  <span class="iconz"></span>
                </i></a>
                <a href=""><i class="fab fa-twitter">
-                  <span class="iconz">Twitter</span>
+                  <span class="iconz"></span>
                </i></a>
                <a href=""><i class="fab fa-github">
-                  <span class="iconz">GitHub</span>
+                  <span class="iconz"></span>
                </i></a>
-               <a href="">Email</a>
+               <a href=""><i class="fas fa-envelope"></i></a>
             </div>
             <div class="contactMessage">
                <p>Hey there! Would love to hear from you, if you have any questions about my portfolio or project, don't hesitate to ask!</p>
             </div>
             <form action="https://formspree.io/f/mqkonndo" method="POST">
-               <label>
-                  Your email:
-                  <input type="email" name="email">
-               </label>
-               <label>
-                  Your message:
-                  <textarea name="message"></textarea>
-               </label>
+               <label>Your email:</label>
+               <input type="email" name="email" placeholder="Your email">
+               
+               <label>Your message:</label>
+               <textarea name="message" placeholder="Your Message"></textarea>
+               
                <!-- your other form fields go here -->
                <button type="submit">Send</button>
             </form>
