@@ -289,6 +289,19 @@ a {
   padding-bottom: 4rem;
 }
 
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  border: 1px solid purple;
+}
+a:active,
+button:active,
+input:active,
+textarea:active {
+  border: 1px solid blue;
+}
+
 .navbar {
   background-color: #93e9be;
   font-family: "Antonio", sans-serif;
@@ -755,7 +768,7 @@ footer .wrapper p {
     width: 70%;
   }
   header div h1 {
-    width: 60%;
+    width: 7 0%;
   }
   .aboutSection .aboutPic img {
     height: 15rem;

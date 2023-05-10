@@ -52,3 +52,16 @@ a {
    padding-top: 4rem;
    padding-bottom: 4rem;
 }
+
+a,
+button,
+input,
+textarea {
+   &:focus {
+      border: 1px solid purple;
+   }
+
+   &:active {
+      border: 1px solid blue;
+   }
+}
