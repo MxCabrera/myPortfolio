@@ -39,7 +39,7 @@
             visibility: hidden;
          }
          .display a {
-            color: black;
+            color: white;
          }
       }
       .nav-menu {
@@ -58,8 +58,8 @@
          }
       }
       .nav-menu.active {
-         background-color: white;
-         left: 2px;
+         background-color: $primary;
+         left: 0px;
          border-top: 1px solid black;
          height: 60vh;
          justify-content: space-evenly;

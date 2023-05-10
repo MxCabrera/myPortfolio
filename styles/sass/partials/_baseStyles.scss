@@ -15,6 +15,7 @@
 }
 
 * {
+   scroll-behavior: smooth;
    padding: 0;
    margin: 0;
    font-family: 'Jost', sans-serif;
@@ -27,6 +28,8 @@ section {
       // text-decoration: underline;
       border-bottom: 1px solid white;
       width: 100%;
+      padding-bottom: 0.5rem;
+      font-family: 'Antonio', sans-serif;
    }
 }
 
@@ -38,11 +41,16 @@ a {
    text-decoration: none;
 }
 
+.projectSection {
+   padding-bottom: 3rem;
+}
+
 .aboutSection,
 .projectSection,
 .skillsSection,
 .blogSection,
 .contactSection {
-   height: 100vh;
+   // height: 100vh;
    padding-top: 4rem;
+   padding-bottom: 4rem;
 }

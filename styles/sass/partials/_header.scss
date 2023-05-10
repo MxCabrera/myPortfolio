@@ -1,9 +1,11 @@
 header {
-   background-color: limegreen;
+   background: linear-gradient(180deg,limegreen, limegreen, limegreen, limegreen, rgb(17, 80, 17), $primary);
+   // background-color: limegreen;
    height: 90vh;
-   padding: 12rem 0;
+   padding: 10rem 0;
    div {      
       h1 {
+         color: white;
          margin: 0 auto;
          font-size: 6rem;
          font-family: 'Antonio', sans-serif;
@@ -12,15 +14,26 @@ header {
          padding: rem 0;
          width: 50%;
          text-align: center;
-         text-shadow: 3px 3px 2px white;
+         // text-shadow: 3px 3px 2px white;
+         span {
+            font-family: 'Antonio', sans-serif;
+            font-weight: 400;
+            color: limegreen;
+            text-shadow:
+                  -2px -2px 0 white,
+                  2px -2px 0 white,
+                  -2px 2px 0 white,
+                  2px 2px 0 white;
+         }
       }
       h3 {
          text-align: center;
          font-family: 'Jost', sans-serif;
          color: $primary;
          margin-top: 2rem;
-         font-size: 1.5rem;
+         font-size: 1.2rem;
          text-transform: uppercase;
+         color: white;
       }
       .stage {
          text-align: center;
@@ -31,8 +44,9 @@ header {
             color: $secondary;
          }
          i {
-            font-size: 3rem;
-            cursor:pointer
+            font-size: 2.5rem;
+            cursor:pointer;
+            color: white;
          }
       }
    }
@@ -50,10 +64,10 @@ header {
    align-self: flex-end;
    animation-duration: 2s;
    animation-iteration-count: infinite;
-   height: 200px;
-   margin: 0 auto 0 auto;
+   height: 50px;
+   margin: 0auto;
    transform-origin: bottom;
-   width: 200px;
+   width: 50px;
 }
 
 .bounce-1 {
@@ -63,7 +77,7 @@ header {
 
 @keyframes bounce-1 {
    0% {
-      transform: translateY(50px);
+      transform: translateY(25px);
    }
 
    50% {
@@ -71,6 +85,6 @@ header {
    }
 
    100% {
-      transform: translateY(50px);
+      transform: translateY(25px);
    }
 }

@@ -251,6 +251,7 @@ html {
 }
 
 * {
+  scroll-behavior: smooth;
   padding: 0;
   margin: 0;
   font-family: "Jost", sans-serif;
@@ -262,6 +263,8 @@ html {
 section h2 {
   border-bottom: 1px solid white;
   width: 100%;
+  padding-bottom: 0.5rem;
+  font-family: "Antonio", sans-serif;
 }
 
 li {
@@ -272,22 +275,27 @@ a {
   text-decoration: none;
 }
 
+.projectSection {
+  padding-bottom: 3rem;
+}
+
 .aboutSection,
 .projectSection,
 .skillsSection,
 .blogSection,
 .contactSection {
-  height: 100vh;
   padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .navbar {
   background-color: #070707;
-  font-family: "Jost", sans-serif;
+  font-family: "Antonio", sans-serif;
   position: sticky;
   top: 0;
   z-index: 10;
   padding: 1rem 0;
+  border-bottom: 0.02rem solid white;
 }
 .navbar .hiddenFlex {
   display: -webkit-box;
@@ -306,6 +314,7 @@ a {
 .navbar .hiddenFlex .display,
 .navbar .hiddenFlex .hamburger {
   display: none;
+  color: white;
 }
 .navbar .navContainer {
   width: 55%;
@@ -328,11 +337,13 @@ a {
 }
 
 header {
-  background-color: limegreen;
+  background: -webkit-gradient(linear, left top, left bottom, from(limegreen), color-stop(limegreen), color-stop(limegreen), color-stop(limegreen), color-stop(rgb(17, 80, 17)), to(#0f0f0f));
+  background: linear-gradient(180deg, limegreen, limegreen, limegreen, limegreen, rgb(17, 80, 17), #0f0f0f);
   height: 90vh;
-  padding: 12rem 0;
+  padding: 10rem 0;
 }
 header div h1 {
+  color: white;
   margin: 0 auto;
   font-size: 6rem;
   font-family: "Antonio", sans-serif;
@@ -341,15 +352,21 @@ header div h1 {
   padding: rem 0;
   width: 50%;
   text-align: center;
-  text-shadow: 3px 3px 2px white;
+}
+header div h1 span {
+  font-family: "Antonio", sans-serif;
+  font-weight: 400;
+  color: limegreen;
+  text-shadow: -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white, 2px 2px 0 white;
 }
 header div h3 {
   text-align: center;
   font-family: "Jost", sans-serif;
-  color: #1c1b1b;
+  color: #0f0f0f;
   margin-top: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
+  color: white;
 }
 header div .stage {
   text-align: center;
@@ -361,8 +378,9 @@ header div .stage a {
   color: #070707;
 }
 header div .stage i {
-  font-size: 3rem;
+  font-size: 2.5rem;
   cursor: pointer;
+  color: white;
 }
 
 .stage {
@@ -380,11 +398,11 @@ header div .stage i {
           animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  height: 200px;
-  margin: 0 auto 0 auto;
+  height: 50px;
+  margin: 0auto;
   -webkit-transform-origin: bottom;
           transform-origin: bottom;
-  width: 200px;
+  width: 50px;
 }
 
 .bounce-1 {
@@ -396,35 +414,35 @@ header div .stage i {
 
 @-webkit-keyframes bounce-1 {
   0% {
-    -webkit-transform: translateY(50px);
-            transform: translateY(50px);
+    -webkit-transform: translateY(25px);
+            transform: translateY(25px);
   }
   50% {
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
   }
   100% {
-    -webkit-transform: translateY(50px);
-            transform: translateY(50px);
+    -webkit-transform: translateY(25px);
+            transform: translateY(25px);
   }
 }
 
 @keyframes bounce-1 {
   0% {
-    -webkit-transform: translateY(50px);
-            transform: translateY(50px);
+    -webkit-transform: translateY(25px);
+            transform: translateY(25px);
   }
   50% {
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
   }
   100% {
-    -webkit-transform: translateY(50px);
-            transform: translateY(50px);
+    -webkit-transform: translateY(25px);
+            transform: translateY(25px);
   }
 }
 .aboutSection {
-  background-color: #1c1b1b;
+  background-color: #0f0f0f;
 }
 .aboutSection h2 {
   color: white;
@@ -443,6 +461,23 @@ header div .stage i {
 }
 .aboutSection .aboutInfo p {
   color: white;
+  font-family: "Antonio", sans-serif;
+  padding: 1rem 0;
+  letter-spacing: 0.1rem;
+}
+.aboutSection .aboutInfo button {
+  margin-top: 1rem;
+  background-color: #0f0f0f;
+  border: 1px solid white;
+  padding: 1rem 2rem;
+}
+.aboutSection .aboutInfo button a {
+  color: white;
+  font-family: "Antonio", sans-serif;
+  text-transform: uppercase;
+}
+.aboutSection .aboutInfo button:hover {
+  background-color: limegreen;
 }
 
 .projectSection {
@@ -462,8 +497,47 @@ header div .stage i {
   list-style-type: none;
 }
 
+.projectContainer .project {
+  margin: 2rem auto;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid rgb(124, 122, 122);
+  padding-bottom: 2rem;
+}
+.projectContainer .project .projPic,
+.projectContainer .project .projLang,
+.projectContainer .project .projSum {
+  width: 30%;
+}
+.projectContainer .project .projName {
+  font-family: "Antonio", sans-serif;
+  width: 100%;
+}
+.projectContainer .project .projLang,
+.projectContainer .project .projSum {
+  font-family: "Jost", sans-serif;
+}
+.projectContainer .project .projSum {
+  display: block;
+}
+.projectContainer .project .projSum p {
+  width: 100%;
+}
+.projectContainer .project .projLang a {
+  color: limegreen;
+}
+
 .skillsSection {
-  background-color: #1c1b1b;
+  background-color: #0f0f0f;
   color: white;
 }
 .skillsSection h2 {
@@ -600,7 +674,7 @@ footer .wrapper p {
     visibility: hidden;
   }
   .navbar .hiddenFlex .display a {
-    color: black;
+    color: white;
   }
   .navbar .nav-menu {
     background-color: white;
@@ -618,8 +692,8 @@ footer .wrapper p {
     width: 90%;
   }
   .navbar .nav-menu.active {
-    background-color: white;
-    left: 2px;
+    background-color: #0f0f0f;
+    left: 0px;
     border-top: 1px solid black;
     height: 60vh;
     -webkit-box-pack: space-evenly;

@@ -17,6 +17,24 @@
       margin-top: 1rem;
       p { 
          color: white;
+         font-family: 'Antonio', sans-serif;
+         padding: 1rem 0;
+         letter-spacing: 0.1rem;
+      }
+      button {
+         a {
+            color: white;
+            font-family: 'Antonio', sans-serif;
+            text-transform: uppercase;
+         }
+         margin-top: 1rem;
+         background-color: $primary;
+         border: 1px solid white;
+         padding: 1rem 2rem;
+         &:hover {
+            background-color: limegreen;
+         }
+         
       }
    }
 }

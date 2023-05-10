@@ -14,3 +14,39 @@
       list-style-type: none;
    }
 }
+
+.projectContainer {
+   .project {
+      margin: 2rem auto;
+      color: white;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      border-bottom: 1px solid rgb(124, 122, 122);
+      padding-bottom: 2rem;
+      .projPic,
+      .projLang,
+      .projSum {
+         width: 30%;
+      }
+      .projName {
+         font-family: 'Antonio', sans-serif;
+         width: 100%;
+      }
+      .projLang,
+      .projSum {
+         font-family: 'Jost', sans-serif;
+      }
+      .projSum {
+         display: block;
+         p {
+            width: 100%;
+         }
+      }
+      .projLang {
+         a {
+            color: limegreen;
+         }
+      }
+   }
+}

@@ -3,6 +3,7 @@ const app = {};
 app.hamburger = document.querySelector('.hamburger');
 app.navMenu = document.querySelector('.nav-menu');
 app.hamburgerList = document.querySelectorAll('.listItem');
+app.project = document.querySelector('.projectContainer');
 
 
 // forEach method that goes through the list of li elements
@@ -25,12 +26,13 @@ app.hamburger.addEventListener('click', () => {
 app.arrow = document.querySelector('.bounce-1');
 app.arrow.addEventListener('click', ()=>{
    console.log('it worked!')
-})
+   window.scrollTo(0,700);
+});
 
 // project array containing the information of each project
 app.projects = [
 {
-   name: 'The Ultimate Watch List App',
+   name: 'The Ultimate Watch List',
    image: 'imagePath',
    summary: 'An app that utilizes 2 TV Maze API endpoints to create a user search feature to check the best tv shows based off of what the user searches, as well as a show all tv shows in pages features',
    livelink: 'https://theultimatewatchlist.netlify.app/'
@@ -63,13 +65,14 @@ app.projects = [
 {
    name: 'Lash Extension Company',
    image: 'imagePath',
-   summary: 'In need of a beauty service or product? Check out SoBeautiful&Co Beauty Bar where they specialize in Eyelash extensions, lamination, teeth whitening, tanning spray, make up facials and more! Book now! ',
+   summary: 'In need of a beauty service or product? Check out this Beauty Bar where they specialize in Eyelash extensions, lamination, teeth whitening, tanning spray, make up facials and more! Book now! ',
    livelink: 'https://so-beautiful-co.netlify.app/'
 }];
 
 // test to see if items append properly
 app.projects.forEach((item)=>{
    console.log(item);
+   app.project.appendChild
 });
 
 
@@ -82,7 +85,30 @@ $('.miguel').on('click', function(){
 // add listeners function that waits for user change
 app.addListeners = () => {
    console.log('app has started');
+   
 };
+
+app.projects.map((project) => {
+   const newListItem = document.createElement('li');
+   newListItem.classList.add('project');
+   // console.log(project)
+   newListItem.innerHTML = `
+      <div class="projPic">
+         <img src="${project.image}" alt="${project.name}">
+      </div>
+      <div class="projLang">
+         <a href="${project.livelink}">
+            <h3 class="projName">${project.name} <i class="fad fa-chevron-down"></i></h3>
+         </a>
+         <p class="projLangs">languages used</p>
+      </div>
+      <div class="projSum">
+         <p>${project.summary}</p>
+      </div>
+      
+   `;
+   app.project.appendChild(newListItem)
+})
 
 // function call that starts the app
 app.init = () => {
