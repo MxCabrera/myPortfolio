@@ -71,6 +71,7 @@
          }
          .projName {
             padding-top: 1rem;
+            font-size: 2rem;
          }
          .projButtons {
             display: flex;
@@ -175,6 +176,11 @@
          font-size: 6rem;
       }
    }
+   section {
+      h2 {
+         font-size: 1.5rem;
+      }
+   }
    .aboutSection {
       .aboutPic {
          width: 35%;
@@ -189,11 +195,23 @@
          }
       }
    }
+   .projectContainer {
+      .project {
+         .projLang .link {
+            width: 50%;
+         }
+      }
+   }
    .skillsSection {
       .skillsContainer {
          .languageBox {
             width: 33%;
          }
+      }
+   }
+   .contactMessage {
+      p {
+         font-size: 1.2rem;
       }
    }
 }

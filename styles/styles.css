@@ -782,6 +782,7 @@ footer .wrapper p {
   }
   .projectContainer .project .projName {
     padding-top: 1rem;
+    font-size: 2rem;
   }
   .projectContainer .project .projButtons {
     display: -webkit-box;
@@ -873,6 +874,9 @@ footer .wrapper p {
     width: 90%;
     font-size: 6rem;
   }
+  section h2 {
+    font-size: 1.5rem;
+  }
   .aboutSection .aboutPic {
     width: 35%;
   }
@@ -883,8 +887,14 @@ footer .wrapper p {
     width: 80%;
     font-size: 0.9rem;
   }
+  .projectContainer .project .projLang .link {
+    width: 50%;
+  }
   .skillsSection .skillsContainer .languageBox {
     width: 33%;
+  }
+  .contactMessage p {
+    font-size: 1.2rem;
   }
 }
 @media (max-width: 480px) {
