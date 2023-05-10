@@ -1,13 +1,13 @@
+// navigation styles // 
 
 .navbar {
-   background-color: $secondary;
-   //  font-family: 'Antonio', sans-serif;
+   background-color: $quaternary;
    font-family: 'Antonio', sans-serif;
    position: sticky;
    top: 0;
    z-index: 10;
    padding: 1rem 0;
-   border-bottom: 0.02rem solid white;
+   border-bottom: 0.02rem solid $solidWhite;
    .hiddenFlex {
       display: flex;
       justify-content: space-between;
@@ -18,22 +18,22 @@
       .display,
       .hamburger {
          display: none;
-         color: white;
+         color: $solidWhite;
       }
    }
    .navContainer {
-      width: 55%;
+      width: 80%;
       margin: 0 auto;
       align-items: center;
       h2 a {
-         color: white;
+         color: $solidWhite;
       }
       li {
          text-transform: uppercase;
          a {
-            color: white;
+            color: $solidWhite;
             &:hover {
-               color: limegreen;
+               color: black;
             }
          }
       }

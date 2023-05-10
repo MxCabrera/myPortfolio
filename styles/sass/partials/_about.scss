@@ -1,25 +1,46 @@
+// about section styles // 
+
 .aboutSection {
    background-color: $primary;
    h2 {
-      color: white;
+      color: $solidWhite;
       text-transform: uppercase;
    }
    .aboutPic {
       width: 25%;
       margin-bottom: 1rem;
       margin-top: 2rem;
+      margin-left: auto;
+      margin-right: auto;
+      border: 1px solid $quaternary;
       img {
-         // height: 25vh;
+         height: 20rem;
          width: 100%;
+         object-fit:cover;
       }
    }
    .aboutInfo {
       margin-top: 1rem;
+      .name {
+         color: $quaternary;
+         font-size: 1.2rem;
+         font-weight: 700;
+         overflow: hidden;
+         border-right: .15em solid $quaternary;
+         white-space: nowrap;
+         letter-spacing: .15rem;
+         animation:
+            typing 3.5s steps(25, end),
+            blink-caret 2s step-end infinite;
+         width: 38%;
+         padding: 0;
+      }
       p { 
-         color: white;
-         font-family: 'Antonio', sans-serif;
+         color: $solidWhite;
+         font-family: 'Jost', sans-serif;
          padding: 1rem 0;
          letter-spacing: 0.1rem;
+         line-height: 1.5rem;
       }
       button {
          a {
@@ -29,12 +50,12 @@
          }
          margin-top: 1rem;
          background-color: $primary;
-         border: 1px solid white;
+         border: 1px solid $solidWhite;
          padding: 1rem 2rem;
          &:hover {
-            background-color: limegreen;
+            background-color: $quaternary;
+            color: $secondary;
          }
-         
       }
    }
 }

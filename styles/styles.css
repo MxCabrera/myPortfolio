@@ -237,7 +237,7 @@ html {
 
 .wrapper {
   max-width: 1260px;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -265,6 +265,7 @@ section h2 {
   width: 100%;
   padding-bottom: 0.5rem;
   font-family: "Antonio", sans-serif;
+  font-size: 2rem;
 }
 
 li {
@@ -289,13 +290,13 @@ a {
 }
 
 .navbar {
-  background-color: #070707;
+  background-color: #93e9be;
   font-family: "Antonio", sans-serif;
   position: sticky;
   top: 0;
   z-index: 10;
   padding: 1rem 0;
-  border-bottom: 0.02rem solid white;
+  border-bottom: 0.02rem solid #ffffff;
 }
 .navbar .hiddenFlex {
   display: -webkit-box;
@@ -314,38 +315,38 @@ a {
 .navbar .hiddenFlex .display,
 .navbar .hiddenFlex .hamburger {
   display: none;
-  color: white;
+  color: #ffffff;
 }
 .navbar .navContainer {
-  width: 55%;
+  width: 80%;
   margin: 0 auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 .navbar .navContainer h2 a {
-  color: white;
+  color: #ffffff;
 }
 .navbar .navContainer li {
   text-transform: uppercase;
 }
 .navbar .navContainer li a {
-  color: white;
+  color: #ffffff;
 }
 .navbar .navContainer li a:hover {
-  color: limegreen;
+  color: black;
 }
 
 header {
-  background: -webkit-gradient(linear, left top, left bottom, from(limegreen), color-stop(limegreen), color-stop(limegreen), color-stop(limegreen), color-stop(rgb(17, 80, 17)), to(#0f0f0f));
-  background: linear-gradient(180deg, limegreen, limegreen, limegreen, limegreen, rgb(17, 80, 17), #0f0f0f);
+  background: -webkit-gradient(linear, left top, left bottom, from(#93e9be), color-stop(#93e9be), color-stop(rgb(108, 173, 141)), to(#0f0f0f));
+  background: linear-gradient(180deg, #93e9be, #93e9be, rgb(108, 173, 141), #0f0f0f);
   height: 90vh;
   padding: 10rem 0;
 }
 header div h1 {
-  color: white;
+  color: #ffffff;
   margin: 0 auto;
-  font-size: 6rem;
+  font-size: 8rem;
   font-family: "Antonio", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
@@ -356,8 +357,8 @@ header div h1 {
 header div h1 span {
   font-family: "Antonio", sans-serif;
   font-weight: 400;
-  color: limegreen;
-  text-shadow: -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white, 2px 2px 0 white;
+  color: #93e9be;
+  text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff;
 }
 header div h3 {
   text-align: center;
@@ -366,7 +367,7 @@ header div h3 {
   margin-top: 2rem;
   font-size: 1.2rem;
   text-transform: uppercase;
-  color: white;
+  color: #ffffff;
 }
 header div .stage {
   text-align: center;
@@ -380,7 +381,7 @@ header div .stage a {
 header div .stage i {
   font-size: 2.5rem;
   cursor: pointer;
-  color: white;
+  color: #ffffff;
 }
 
 .stage {
@@ -445,30 +446,50 @@ header div .stage i {
   background-color: #0f0f0f;
 }
 .aboutSection h2 {
-  color: white;
+  color: #ffffff;
   text-transform: uppercase;
 }
 .aboutSection .aboutPic {
   width: 25%;
   margin-bottom: 1rem;
   margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #93e9be;
 }
 .aboutSection .aboutPic img {
+  height: 20rem;
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .aboutSection .aboutInfo {
   margin-top: 1rem;
 }
+.aboutSection .aboutInfo .name {
+  color: #93e9be;
+  font-size: 1.2rem;
+  font-weight: 700;
+  overflow: hidden;
+  border-right: 0.15em solid #93e9be;
+  white-space: nowrap;
+  letter-spacing: 0.15rem;
+  -webkit-animation: typing 3.5s steps(25, end), blink-caret 2s step-end infinite;
+          animation: typing 3.5s steps(25, end), blink-caret 2s step-end infinite;
+  width: 38%;
+  padding: 0;
+}
 .aboutSection .aboutInfo p {
-  color: white;
-  font-family: "Antonio", sans-serif;
+  color: #ffffff;
+  font-family: "Jost", sans-serif;
   padding: 1rem 0;
   letter-spacing: 0.1rem;
+  line-height: 1.5rem;
 }
 .aboutSection .aboutInfo button {
   margin-top: 1rem;
   background-color: #0f0f0f;
-  border: 1px solid white;
+  border: 1px solid #ffffff;
   padding: 1rem 2rem;
 }
 .aboutSection .aboutInfo button a {
@@ -477,14 +498,15 @@ header div .stage i {
   text-transform: uppercase;
 }
 .aboutSection .aboutInfo button:hover {
-  background-color: limegreen;
+  background-color: #93e9be;
+  color: #070707;
 }
 
 .projectSection {
   background-color: #070707;
 }
 .projectSection h2 {
-  color: white;
+  color: #ffffff;
   text-transform: uppercase;
 }
 .projectSection .projectButtons {
@@ -499,7 +521,7 @@ header div .stage i {
 
 .projectContainer .project {
   margin: 2rem auto;
-  color: white;
+  color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -521,6 +543,7 @@ header div .stage i {
 .projectContainer .project .projName {
   font-family: "Antonio", sans-serif;
   width: 100%;
+  font-size: 1.5rem;
 }
 .projectContainer .project .projLang,
 .projectContainer .project .projSum {
@@ -531,14 +554,55 @@ header div .stage i {
 }
 .projectContainer .project .projSum p {
   width: 100%;
+  font-size: 1.2rem;
+}
+.projectContainer .project .projLang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .projectContainer .project .projLang a {
-  color: limegreen;
+  color: #93e9be;
+  width: 100%;
+}
+.projectContainer .project .projLang p {
+  width: 100%;
+}
+.projectContainer .project .projLang button {
+  width: 100%;
+  background-color: #070707;
+  font-family: "Antonio", sans-serif;
+  font-size: 1.2rem;
+  border: none;
+  color: #ffffff;
+  padding: 0.5rem 0;
+  margin: 0.5rem 0;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+.projectContainer .project .projLang button:hover {
+  color: #93e9be;
+  text-decoration: underline;
+}
+.projectContainer .project .projLang button i {
+  color: #93e9be;
+}
+.projectContainer .project .projPic {
+  width: 28%;
+  margin: 0 auto 0 0;
+}
+.projectContainer .project .projPic img {
+  width: 100%;
 }
 
 .skillsSection {
   background-color: #0f0f0f;
-  color: white;
+  color: #ffffff;
 }
 .skillsSection h2 {
   text-transform: uppercase;
@@ -567,26 +631,33 @@ header div .stage i {
   width: 25%;
   margin-top: 1.5rem;
 }
+.skillsSection .skillsContainer .languageBox:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 1s all;
+  transition: 1s all;
+}
+.skillsSection .skillsContainer .languageBox:hover i {
+  text-shadow: 3px 3px 1px #808080;
+  color: #93e9be;
+}
 .skillsSection .skillsContainer i {
-  color: white;
+  color: #ffffff;
   text-align: center;
   font-size: 2rem;
-}
-.skillsSection .skillsContainer i:hover {
-  text-shadow: 3px 3px 2px white;
-  color: limegreen;
 }
 .skillsSection .skillsContainer span {
   text-align: center;
   text-transform: uppercase;
   margin-top: 0.7rem;
+  color: #93e9be;
 }
 
 .contactSection {
   background-color: #070707;
 }
 .contactSection h2 {
-  color: white;
+  color: #ffffff;
   text-transform: uppercase;
 }
 .contactSection .socialContainer {
@@ -597,14 +668,23 @@ header div .stage i {
   text-align: center;
 }
 .contactSection .socialContainer a {
-  color: white;
+  color: #ffffff;
   padding: 0 1rem;
 }
 .contactSection .socialContainer a i {
   font-size: 1.5rem;
 }
 .contactSection .socialContainer a i:hover {
-  color: limegreen;
+  color: #93e9be;
+}
+.contactSection .contactMessage {
+  color: #ffffff;
+  font-family: "Jost", sans-serif;
+  font-size: 1.2rem;
+  margin: 3rem auto;
+  width: 90%;
+  text-align: center;
+  text-transform: uppercase;
 }
 .contactSection form {
   display: -webkit-box;
@@ -632,23 +712,23 @@ header div .stage i {
 .contactSection form button {
   margin: 0 auto;
   margin-top: 1rem;
-  color: white;
-  border: 1px solid white;
-  background-color: #070707;
+  color: #070707;
+  border: 1px solid #ffffff;
+  background-color: #93e9be;
   width: 50%;
   padding: 0.7rem 0;
   text-transform: uppercase;
 }
 .contactSection form button:hover {
-  background-color: limegreen;
-  color: #070707;
+  background-color: #070707;
+  color: #ffffff;
 }
 
 footer {
   background-color: #070707;
 }
 footer .wrapper p {
-  color: white;
+  color: #ffffff;
   text-align: center;
   font-family: "Jost", sans-serif;
   padding: 2rem 0;
@@ -674,10 +754,10 @@ footer .wrapper p {
     visibility: hidden;
   }
   .navbar .hiddenFlex .display a {
-    color: white;
+    color: #ffffff;
   }
   .navbar .nav-menu {
-    background-color: white;
+    background-color: #ffffff;
     position: fixed;
     left: -103%;
     top: 59px;
@@ -694,7 +774,8 @@ footer .wrapper p {
   .navbar .nav-menu.active {
     background-color: #0f0f0f;
     left: 0px;
-    border-top: 1px solid black;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
     height: 60vh;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;

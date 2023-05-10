@@ -1,7 +1,9 @@
+// project styles //
+
 .projectSection {
    background-color: $secondary;
    h2 {
-      color: white;
+      color: $solidWhite;
       text-transform: uppercase;
    }
    .projectButtons {
@@ -18,7 +20,7 @@
 .projectContainer {
    .project {
       margin: 2rem auto;
-      color: white;
+      color: $solidWhite;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -32,6 +34,7 @@
       .projName {
          font-family: 'Antonio', sans-serif;
          width: 100%;
+         font-size: 1.5rem;
       }
       .projLang,
       .projSum {
@@ -41,11 +44,45 @@
          display: block;
          p {
             width: 100%;
+            font-size: 1.2rem;
          }
       }
       .projLang {
+         display: flex;
+         flex-direction: column;
          a {
-            color: limegreen;
+            color: $quaternary;
+            width: 100%;
+         }
+         p {
+            width: 100%;
+         }
+         button {
+            width: 100%;
+            background-color: $secondary;
+            font-family: 'Antonio', sans-serif;
+            font-size: 1.2rem;
+            border: none;
+            color: $solidWhite;
+            padding: .5rem 0;
+            margin: .5rem 0;
+            text-align: left;
+            text-transform: uppercase;
+            letter-spacing: 0.2rem;
+            &:hover {
+               color: $quaternary;
+               text-decoration: underline;
+            }
+            i {
+               color: $quaternary;
+            }
+         }
+      }
+      .projPic {
+         width: 28%;
+         margin: 0 auto 0 0;
+         img {
+            width: 100%;
          }
       }
    }

@@ -1,29 +1,28 @@
+// header styles //
 header {
-   background: linear-gradient(180deg,limegreen, limegreen, limegreen, limegreen, rgb(17, 80, 17), $primary);
-   // background-color: limegreen;
+   background: linear-gradient(180deg,$quaternary, $quaternary, rgb(108, 173, 141), $primary);
    height: 90vh;
    padding: 10rem 0;
    div {      
       h1 {
-         color: white;
+         color: $solidWhite;
          margin: 0 auto;
-         font-size: 6rem;
+         font-size: 8rem;
          font-family: 'Antonio', sans-serif;
          font-weight: 400;
          text-transform: uppercase;
          padding: rem 0;
          width: 50%;
          text-align: center;
-         // text-shadow: 3px 3px 2px white;
          span {
             font-family: 'Antonio', sans-serif;
             font-weight: 400;
-            color: limegreen;
+            color: $quaternary;
             text-shadow:
-                  -2px -2px 0 white,
-                  2px -2px 0 white,
-                  -2px 2px 0 white,
-                  2px 2px 0 white;
+                  -2px -2px 0 $solidWhite,
+                  2px -2px 0 $solidWhite,
+                  -2px 2px 0 $solidWhite,
+                  2px 2px 0 $solidWhite;
          }
       }
       h3 {
@@ -33,7 +32,7 @@ header {
          margin-top: 2rem;
          font-size: 1.2rem;
          text-transform: uppercase;
-         color: white;
+         color: $solidWhite;
       }
       .stage {
          text-align: center;
@@ -46,7 +45,7 @@ header {
          i {
             font-size: 2.5rem;
             cursor:pointer;
-            color: white;
+            color: $solidWhite;
          }
       }
    }

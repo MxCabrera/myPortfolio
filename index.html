@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+   
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,13 +11,14 @@
    <link
       href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;400;700&family=Jost:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap"
       rel="stylesheet">
-
    <link rel="stylesheet" href="./styles/styles.css">
 <script src="https://kit.fontawesome.com/c9714a9747.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <title>MEC | Web Development</title>
 </head>
 
 <body>
+   <!-- navigation starts -->
    <nav class="navbar">
       <!-- wrapper -->
       <div class="wrapper">
@@ -39,61 +41,60 @@
    <!-- header starts here -->
    <header>
       <div class="wrapper">
-         <div>
+         <section>
             <h1 class="miguel">Miguel <span>Cabrera</span> </h1>
             <h3>Web Developer</h3>
             <div class="stage">
+               <!-- on click button to scroll down -->
                <a>
                   <i class="fas fa-sort-down box bounce-1"></i>
                </a>
             </div>
-         </div>
+         </section>
          <!-- <i class="fas fa-sort-up scrollUp"></i> -->
       </div>
-   </header>
+   </header> <!-- header ends -->
+
    <!-- main starts here -->
    <main id="down">
       <section class="aboutSection" id="about">
          <div class="wrapper">
             <h2>About Me</h2>
+            <!-- main photo -->
             <div class="aboutPic">
                <img src="./assets/IMG_0382.jpg" alt="main headshot photo">
             </div>
-            <div class="aboutInfo">
-               <p>Hello there, I'm Miguel! (he/him). I'm a front end developer with major passions for building and creating. I graduated from Juno College immersive Bootcamp for Web Development. From this experience, I've learned and gained a strong understanding in coding <span>languages</span>, which has allowed me to create responsive, user-friendly, clean and accessible web apps with  dreams of eventually becoming a Full Stack Developer.</p>
+            <!-- about me paragraph  -->
+            <div class="aboutInfo aos-init aos-animate" data-aos="fade-up">
+               <p class="name">Hello there, I'm Miguel! (he/him).</p>
+               
+               <p> I'm a front end developer with major passions for building and creating. I graduated from Juno College immersive Bootcamp for Web Development. From this experience, I've learned and gained a strong understanding in coding <span>languages</span>, which has allowed me to create responsive, user-friendly, clean and accessible web apps with  dreams of eventually becoming a Full Stack Developer.</p>
 
                <p> Prior to this bootcamp, I graduated with a background in Architectural Technology & shortly after worked for a tech company that specialized in 3D modeling & Virtual Reality (VR/AR). Working there taught me how to respond efficiently when working in a high pressure environment. I've also learned to become an adaptable team member and communicate well in a group or pair.</p>
 
-               <p>Outside of code, I enjoy playing basketball, sketching, and hanging out with my Border Collie, Kaia.
-               
-               With these experiences, I have grown dedicated to my craft and aim to create websites that provide clients with intuitive designs, functionality and accessibility. Coding has allowed me to express my creativity and develop a strong foundation to build on. I am excited to begin this new journey with a positive attitude and an open mindset.
+               <p>With these experiences, I have grown dedicated to my craft and aim to create websites that provide clients with intuitive designs, functionality and accessibility. Coding has allowed me to express my creativity and develop a strong foundation to build on. I am excited to begin this new journey with a positive attitude and an open mindset.
                </p>
                <button><a href="assets/MiguelCabrera.pdf" target="_blank">Resume</a></button>
             </div>
          </div>
-      </section>
+      </section> <!-- about me section ends -->
+
+      <!-- project section  -->
       <section class="projectSection" id="projects">
          <div class="wrapper">
             <h2>Projects</h2>
             <div class="projectContainer">
                <!-- data will go here -->
             </div>
-            <!-- <div class="projectContainer">
-               <div class="projectImg"><img src="" alt=""></div>
-               <div class="projectInfo">
-                  <h3 class="projectName"></h3>
-                  <div class="langUsed"></div>
-                  <div class="projectInfo"></div>
-                  <div class="projectButtons"><button></button><a href=""></a></div>
-               </div>
-            </div> -->
          </div>
-      </section>
+      </section> <!-- project section ends -->
 
+      <!-- skills section -->
       <section class="skillsSection" id="skills">
          <div class="wrapper">
             <h2>Skills</h2>
             <div class="skillsContainer">
+               <!-- language containers -->
                <div class="languageBox">
                   <i class="fab fa-css3-alt"></i>
                   <span class="langName">CSS3</span>
@@ -144,53 +145,65 @@
                </div>
             </div>
          </div>
-      </section>
-      <!-- <div class="blogSection" id="blog">
-         <div class="wrapper">
-            <h2>Blog</h2>
+      </section> <!-- skills section ends -->
 
-         </div>
-      </div> -->
+      <!-- contact section -->
       <section class="contactSection" id="contact">
          <div class="wrapper">
             <h2>Contact</h2>
+            <!-- social media information -->
             <div class="socialContainer">
-               <a href=""><i class="fab fa-linkedin">
+               <a href="https://www.linkedin.com/in/mxcabrera/" target="_blank" rel="noopener noreferrer" aria-label="Link to my LinkedIn">
+                  <i class="fab fa-linkedin">
                   <span class="iconz"></span>
-               </i></a>
-               <a href=""><i class="fab fa-twitter">
+                  </i>
+               </a>
+               <a href="https://twitter.com/MxCabreraCodes">
+                  <i class="fab fa-twitter" target="_blank" rel="noopener noreferrer" aria-label="Link to my Twitter">
                   <span class="iconz"></span>
-               </i></a>
-               <a href=""><i class="fab fa-github">
+                  </i>
+               </a>
+               <a href="https://github.com/MxCabrera" target="_blank" rel="noopener noreferrer" aria-label="Link to my GitHub">
+                  <i class="fab fa-github">
                   <span class="iconz"></span>
-               </i></a>
-               <a href=""><i class="fas fa-envelope"></i></a>
+                  </i>
+               </a>
+               <a href="mailto:migueledward@hotmail.com" target="_blank" rel="noopener noreferrer" aria-label="Link to my email">
+                  <i class="fas fa-envelope"></i>
+               </a>
             </div>
-            <div class="contactMessage">
-               <p>Hey there! Would love to hear from you, if you have any questions about my portfolio or project, don't hesitate to ask!</p>
+            <!-- contact messsage -->
+            <div class="contactMessage" data-aos="fade-up">
+               <p>Hey there! Please feel free to contact me if you have any opportunities or if you just want to talk. I'm always open to new possibilities and meeting new people. Looking forward to hearing back from you!</p>
             </div>
-            <form action="https://formspree.io/f/mqkonndo" method="POST">
+
+            <!-- form here -->
+            <form action="https://formspree.io/f/mqkonndo" method="POST" data-aos="fade-up">
                <label>Your email:</label>
-               <input type="email" name="email" placeholder="Your email">
+               <input class="contactInput" type="email" name="email" placeholder="Your Email">
                
                <label>Your message:</label>
-               <textarea name="message" placeholder="Your Message"></textarea>
+               <textarea class="contactText" name="message" placeholder="Your Message"></textarea>
                
                <!-- your other form fields go here -->
-               <button type="submit">Send</button>
+               <button class="contactSubmit"type="submit">Send</button>
             </form>
          </div>
-      </section>
+      </section><!-- contact sections ends -->
+   </main><!-- main ends -->
 
-   </main>
    <!-- footer starts here -->
    <footer>
       <div class="wrapper">
          <p>© 2023. All Rights Reserved | Designed by Miguel Cabrera</p>
       </div>
-   </footer>
+   </footer><!-- footer ends -->
+
+   <!-- script links -->
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
    <script src='https://code.jquery.com/jquery-3.4.0.min.js'
       integrity='sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=' crossorigin='anonymous'></script>
    <script src="./script.js"></script>
+
 </body>
 </html>

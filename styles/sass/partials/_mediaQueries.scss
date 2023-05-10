@@ -39,11 +39,11 @@
             visibility: hidden;
          }
          .display a {
-            color: white;
+            color: $solidWhite;
          }
       }
       .nav-menu {
-         background-color: white;
+         background-color: $solidWhite;
          position: fixed;
          left: -103%;
          top: 59px;
@@ -54,13 +54,13 @@
          .nav-item {
             padding: 10px;
             width: 90%;
-            // border-bottom: 1px solid black;
          }
       }
       .nav-menu.active {
          background-color: $primary;
          left: 0px;
-         border-top: 1px solid black;
+         border-top: 1px solid $solidWhite;
+         border-bottom: 1px solid $solidWhite;
          height: 60vh;
          justify-content: space-evenly;
       }

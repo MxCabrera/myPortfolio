@@ -1,7 +1,8 @@
+// contact styles // 
 .contactSection {
    background-color: $secondary;
    h2 {
-      color: white;
+      color: $solidWhite;
       text-transform: uppercase;
    }
    .socialContainer {
@@ -9,15 +10,24 @@
       align-items: center;
       text-align: center;
       a {
-         color: white;
+         color: $solidWhite;
          padding: 0 1rem;
          i {
             font-size: 1.5rem;
             &:hover {
-               color: limegreen;
+               color: $quaternary;
             }
          }
       }
+   }
+   .contactMessage {
+      color: $solidWhite;
+      font-family: 'Jost', sans-serif;
+      font-size: 1.2rem;
+      margin: 3rem auto;
+      width: 90%;
+      text-align: center;
+      text-transform: uppercase;
    }
    form {
       display: flex;
@@ -39,18 +49,16 @@
       button {
          margin: 0 auto;
          margin-top: 1rem;
-         color: white;
-         border: 1px solid white;
-         background-color: $secondary;
+         color: $secondary;
+         border: 1px solid $solidWhite;
+         background-color: $quaternary;
          width: 50%;
          padding: 0.7rem 0;
          text-transform: uppercase;
          &:hover {
-            background-color: limegreen;
-            color: $secondary;
-            // border: none;
+            background-color: $secondary;
+            color: $solidWhite;
          }
       }
-      
    }
 }
