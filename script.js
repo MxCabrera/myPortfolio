@@ -130,12 +130,14 @@ app.addListeners = () => {
                <h3 class="projName">${project.name}</h3>
             </a>
             <p class="projLangs">languages used</p>
-            <a href="${project.livelink}">
-               <button><i class="far fa-heart-rate"></i>Live Link</button>
-            </a>
-            <a href="${project.github}">
-               <button>GitHub</button>
-            </a>
+            <div class="projButtons">
+               <a class="link" "href="${project.livelink}">
+                  <button>Live Link</button>
+               </a>
+               <a class="link" href="${project.github}">
+                  <button>GitHub</button>
+               </a>
+            </div>
          </div>
          <div class="projSum">
             <p>${project.summary}</p>

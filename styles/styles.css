@@ -334,7 +334,7 @@ a {
   color: #ffffff;
 }
 .navbar .navContainer li a:hover {
-  color: black;
+  color: #0f0f0f;
 }
 
 header {
@@ -556,6 +556,9 @@ header div .stage i {
   width: 100%;
   font-size: 1.2rem;
 }
+.projectContainer .project .projLangs {
+  padding-top: 1rem;
+}
 .projectContainer .project .projLang {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -738,10 +741,60 @@ footer .wrapper p {
   .navbar .navContainer {
     width: 62%;
   }
+  .aboutSection .aboutInfo .name {
+    width: 45%;
+  }
+}
+@media (max-width: 1040px) {
+  .aboutSection .aboutInfo .name {
+    width: 50%;
+  }
 }
 @media (max-width: 940px) {
   .navbar .navContainer {
     width: 70%;
+  }
+  header div h1 {
+    width: 60%;
+  }
+  .aboutSection .aboutPic img {
+    height: 15rem;
+  }
+  .aboutSection .aboutInfo .name {
+    font-size: 1rem;
+    width: 48%;
+  }
+  .projectContainer .project {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .projectContainer .project .projPic,
+  .projectContainer .project .projLang,
+  .projectContainer .project .projSum {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .projectContainer .project .projLang .link {
+    width: 25%;
+  }
+  .projectContainer .project .projName {
+    padding-top: 1rem;
+  }
+  .projectContainer .project .projButtons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .projectContainer .project .projSum {
+    padding-top: 2rem;
+    border-top: 1px solid grey;
   }
 }
 @media (max-width: 768px) {
@@ -772,7 +825,8 @@ footer .wrapper p {
     width: 90%;
   }
   .navbar .nav-menu.active {
-    background-color: #0f0f0f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#93e9be), color-stop(#93e9be), to(rgb(108, 173, 141)));
+    background: linear-gradient(180deg, #93e9be, #93e9be, rgb(108, 173, 141));
     left: 0px;
     border-top: 1px solid #ffffff;
     border-bottom: 1px solid #ffffff;
@@ -799,5 +853,57 @@ footer .wrapper p {
     display: block;
     font-size: 1.5rem;
     color: black;
+  }
+  header {
+    padding: 6rem 0;
+  }
+  header div h1 {
+    width: 80%;
+    font-size: 7rem;
+  }
+  .aboutSection .aboutPic img {
+    height: 11rem;
+  }
+  .aboutSection .aboutInfo .name {
+    width: 68%;
+  }
+}
+@media (max-width: 600px) {
+  header div h1 {
+    width: 90%;
+    font-size: 6rem;
+  }
+  .aboutSection .aboutPic {
+    width: 35%;
+  }
+  .aboutSection .aboutPic img {
+    height: 13rem;
+  }
+  .aboutSection .aboutInfo .name {
+    width: 80%;
+    font-size: 0.9rem;
+  }
+  .skillsSection .skillsContainer .languageBox {
+    width: 33%;
+  }
+}
+@media (max-width: 480px) {
+  .aboutSection .aboutPic {
+    width: 50%;
+  }
+  .aboutSection .aboutPic img {
+    height: 15rem;
+  }
+  .aboutSection .aboutInfo .name {
+    width: 95%;
+  }
+  .aboutSection .aboutInfo button {
+    padding: 0.75rem 1.5rem;
+  }
+  .skillsSection .skillsContainer .languageBox span {
+    font-size: 0.8rem;
+  }
+  footer .wrapper p {
+    font-size: 0.8rem;
   }
 }
