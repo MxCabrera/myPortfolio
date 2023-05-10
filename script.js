@@ -129,7 +129,6 @@ app.addListeners = () => {
             <a href="${project.livelink}">
                <h3 class="projName">${project.name}</h3>
             </a>
-            <p class="projLangs">languages used</p>
             <div class="projButtons">
                <a class="link" "href="${project.livelink}">
                   <button>Live Link</button>
