@@ -302,6 +302,64 @@ textarea:active {
   border: 1px solid blue;
 }
 
+.appButton {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid #BFC0C0;
+  margin: 20px 20px 20px 20px;
+  color: #BFC0C0;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.8em;
+  letter-spacing: 1.5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+.appButton a {
+  color: #BFC0C0;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+#button-2 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-2 a {
+  position: relative;
+  -webkit-transition: all 0.35s ease-Out;
+  transition: all 0.35s ease-Out;
+}
+
+#slide {
+  width: 100%;
+  height: 100%;
+  left: -200px;
+  background: #BFC0C0;
+  position: absolute;
+  -webkit-transition: all 0.35s ease-Out;
+  transition: all 0.35s ease-Out;
+  bottom: 0;
+}
+
+#button-2:hover #slide {
+  left: 0;
+}
+
+#button-2:hover a {
+  color: #2D3142;
+}
+
 .navbar {
   background-color: #93e9be;
   font-family: "Antonio", sans-serif;
@@ -351,6 +409,7 @@ textarea:active {
 }
 
 header {
+  background-image: url(../../../assets/images.jpg);
   background: -webkit-gradient(linear, left top, left bottom, from(#93e9be), color-stop(#93e9be), color-stop(rgb(108, 173, 141)), to(#0f0f0f));
   background: linear-gradient(180deg, #93e9be, #93e9be, rgb(108, 173, 141), #0f0f0f);
   height: 90vh;
@@ -373,6 +432,20 @@ header div h1 span {
   color: #93e9be;
   text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff;
 }
+header div .container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+header div .dud {
+  color: #ffffff;
+}
 header div h3 {
   text-align: center;
   font-family: "Jost", sans-serif;
@@ -381,6 +454,7 @@ header div h3 {
   font-size: 1.2rem;
   text-transform: uppercase;
   color: #ffffff;
+  letter-spacing: 0.2rem;
 }
 header div .stage {
   text-align: center;

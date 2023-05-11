@@ -1,5 +1,6 @@
 // header styles //
 header {
+   background-image: url(../../../assets/images.jpg);
    background: linear-gradient(180deg,$quaternary, $quaternary, rgb(108, 173, 141), $primary);
    height: 90vh;
    padding: 10rem 0;
@@ -25,6 +26,15 @@ header {
                   2px 2px 0 $solidWhite;
          }
       }
+      .container {
+         justify-content: center;
+         align-items: center;
+         display: flex;
+      }
+
+      .dud {
+         color: $solidWhite;
+      }
       h3 {
          text-align: center;
          font-family: 'Jost', sans-serif;
@@ -33,6 +43,7 @@ header {
          font-size: 1.2rem;
          text-transform: uppercase;
          color: $solidWhite;
+         letter-spacing: .2rem;
       }
       .stage {
          text-align: center;
