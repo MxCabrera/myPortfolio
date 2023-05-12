@@ -367,7 +367,7 @@ textarea:active {
 }
 
 .navbar {
-  background-color: #cc7952;
+  background-color: #943d2c;
   font-family: "Antonio", sans-serif;
   position: sticky;
   top: 0;
@@ -415,7 +415,7 @@ textarea:active {
 }
 
 header {
-  background-color: #cc7952;
+  background-color: #943d2c;
   background-size: cover;
   background-attachment: fixed;
   height: 90vh;
@@ -439,7 +439,7 @@ header div h1 span {
 header div h1 .lastName {
   font-family: "Antonio", sans-serif;
   font-weight: 400;
-  color: #cc7952;
+  color: #943d2c;
   text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff;
 }
 header div .container {
@@ -551,10 +551,6 @@ header div .stage i {
   margin-right: -1rem;
   color: #dfd0bb;
   text-transform: uppercase;
-  -webkit-animation: flip 2s infinite;
-          animation: flip 2s infinite;
-  -webkit-animation-delay: calc(0.2s * var(--i));
-          animation-delay: calc(0.2s * var(--i));
 }
 
 @-webkit-keyframes flip {
@@ -595,11 +591,11 @@ header div .stage i {
   margin-top: 1rem;
 }
 .aboutSection .aboutInfo .name {
-  color: #cc7952;
+  color: #943d2c;
   font-size: 1.2rem;
   font-weight: 700;
   overflow: hidden;
-  border-right: 0.15em solid #cc7952;
+  border-right: 0.15em solid #943d2c;
   white-space: nowrap;
   letter-spacing: 0.15rem;
   -webkit-animation: typing 3.5s steps(25, end), blink-caret 2s step-end infinite;
@@ -686,7 +682,7 @@ header div .stage i {
           flex-direction: column;
 }
 .projectContainer .project .projLang a {
-  color: #cc7952;
+  color: #943d2c;
   width: 100%;
 }
 .projectContainer .project .projLang p {
@@ -711,7 +707,7 @@ header div .stage i {
   text-underline-offset: 8px;
 }
 .projectContainer .project .projLang button i {
-  color: #cc7952;
+  color: #943d2c;
 }
 .projectContainer .project .projPic {
   width: 28%;
@@ -760,7 +756,7 @@ header div .stage i {
 }
 .skillsSection .skillsContainer .languageBox:hover i {
   text-shadow: 3px 3px 1px #808080;
-  color: #cc7952;
+  color: #943d2c;
 }
 .skillsSection .skillsContainer i {
   color: #ffffff;
@@ -772,7 +768,7 @@ header div .stage i {
   text-align: center;
   text-transform: uppercase;
   margin-top: 0.7rem;
-  color: #cc7952;
+  color: #943d2c;
   width: 100%;
 }
 
@@ -798,7 +794,7 @@ header div .stage i {
   font-size: 1.5rem;
 }
 .contactSection .socialContainer a i:hover {
-  color: #cc7952;
+  color: #943d2c;
 }
 .contactSection .contactMessage {
   color: #ffffff;
@@ -947,8 +943,8 @@ footer .wrapper p {
     width: 90%;
   }
   .navbar .nav-menu.active {
-    background: -webkit-gradient(linear, left top, left bottom, from(#cc7952), color-stop(#cc7952), to(rgb(108, 173, 141)));
-    background: linear-gradient(180deg, #cc7952, #cc7952, rgb(108, 173, 141));
+    background: -webkit-gradient(linear, left top, left bottom, from(#943d2c), color-stop(#943d2c), to(rgb(108, 173, 141)));
+    background: linear-gradient(180deg, #943d2c, #943d2c, rgb(108, 173, 141));
     left: 0px;
     border-top: 1px solid #ffffff;
     border-bottom: 1px solid #ffffff;
