@@ -35,8 +35,9 @@
             color: $solidWhite;
             &:hover {
                color: #CB8B44;
-               text-decoration: line-through;
-               transition: 1s ease;
+               // text-decoration: line-through;
+               // text-decoration-color: #474543;
+               transition: .2s ease;
             }
          }
       }

@@ -412,9 +412,8 @@ textarea:active {
 }
 .navbar .navContainer li a:hover {
   color: #CB8B44;
-  text-decoration: line-through;
-  -webkit-transition: 1s ease;
-  transition: 1s ease;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
 }
 
 header {
