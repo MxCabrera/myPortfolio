@@ -367,7 +367,7 @@ textarea:active {
 }
 
 .navbar {
-  background-color: #943d2c;
+  background-color: #ad7c59;
   font-family: "Antonio", sans-serif;
   position: sticky;
   top: 0;
@@ -415,7 +415,7 @@ textarea:active {
 }
 
 header {
-  background-color: #943d2c;
+  background-color: #ad7c59;
   background-size: cover;
   background-attachment: fixed;
   height: 90vh;
@@ -439,7 +439,7 @@ header div h1 span {
 header div h1 .lastName {
   font-family: "Antonio", sans-serif;
   font-weight: 400;
-  color: #943d2c;
+  color: #ad7c59;
   text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff;
 }
 header div .container {
@@ -591,11 +591,11 @@ header div .stage i {
   margin-top: 1rem;
 }
 .aboutSection .aboutInfo .name {
-  color: #943d2c;
+  color: #ad7c59;
   font-size: 1.2rem;
   font-weight: 700;
   overflow: hidden;
-  border-right: 0.15em solid #943d2c;
+  border-right: 0.15em solid #ad7c59;
   white-space: nowrap;
   letter-spacing: 0.15rem;
   -webkit-animation: typing 3.5s steps(25, end), blink-caret 2s step-end infinite;
@@ -682,7 +682,7 @@ header div .stage i {
           flex-direction: column;
 }
 .projectContainer .project .projLang a {
-  color: #943d2c;
+  color: #ad7c59;
   width: 100%;
 }
 .projectContainer .project .projLang p {
@@ -707,7 +707,7 @@ header div .stage i {
   text-underline-offset: 8px;
 }
 .projectContainer .project .projLang button i {
-  color: #943d2c;
+  color: #ad7c59;
 }
 .projectContainer .project .projPic {
   width: 28%;
@@ -756,7 +756,7 @@ header div .stage i {
 }
 .skillsSection .skillsContainer .languageBox:hover i {
   text-shadow: 3px 3px 1px #808080;
-  color: #943d2c;
+  color: #ad7c59;
 }
 .skillsSection .skillsContainer i {
   color: #ffffff;
@@ -768,7 +768,7 @@ header div .stage i {
   text-align: center;
   text-transform: uppercase;
   margin-top: 0.7rem;
-  color: #943d2c;
+  color: #ad7c59;
   width: 100%;
 }
 
@@ -794,7 +794,7 @@ header div .stage i {
   font-size: 1.5rem;
 }
 .contactSection .socialContainer a i:hover {
-  color: #943d2c;
+  color: #ad7c59;
 }
 .contactSection .contactMessage {
   color: #ffffff;
@@ -943,8 +943,8 @@ footer .wrapper p {
     width: 90%;
   }
   .navbar .nav-menu.active {
-    background: -webkit-gradient(linear, left top, left bottom, from(#943d2c), color-stop(#943d2c), to(rgb(108, 173, 141)));
-    background: linear-gradient(180deg, #943d2c, #943d2c, rgb(108, 173, 141));
+    background: -webkit-gradient(linear, left top, left bottom, from(#ad7c59), color-stop(#ad7c59), to(rgb(108, 173, 141)));
+    background: linear-gradient(180deg, #ad7c59, #ad7c59, rgb(108, 173, 141));
     left: 0px;
     border-top: 1px solid #ffffff;
     border-bottom: 1px solid #ffffff;
