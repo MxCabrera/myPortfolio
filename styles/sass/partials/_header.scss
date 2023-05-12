@@ -14,10 +14,10 @@ header {
          // color: $solidWhite;
          color: $senary;
          text-shadow:
-            -2px -2px 0 #eae4e0,
-            2px -2px 0 #eae4e0,
-            -2px 2px 0 #eae4e0,
-            2px 2px 0 #eae4e0;
+            -2px -2px 0 #474543
+            2px -2px 0 #474543,
+            -2px 2px 0 #474543,
+            2px 2px 0 #474543;
          margin: 0 auto;
          font-size: 6rem;
          font-family: 'Antonio', sans-serif;
@@ -34,10 +34,10 @@ header {
             font-weight: 400;
             color: $quaternary;
             text-shadow:
-                  -2px -2px 0 #eeefdc,
-                  2px -2px 0 #eeefdc,
-                  -2px 2px 0 #eeefdc,
-                  2px 2px 0 #eeefdc;
+                  -2px -2px 0 #474543,
+                  2px -2px 0 #474543,
+                  -2px 2px 0 #474543,
+                  2px 2px 0 #474543;
          }
       }
       .container {
@@ -48,16 +48,21 @@ header {
 
       .dud {
          color: $solidWhite;
+         
       }
       h3 {
          text-align: center;
          font-family: 'Jost', sans-serif;
-         color: $primary;
+         // color: $primary;
+         color: #CB8B44;
          margin-top: 2rem;
          font-size: 1.2rem;
          text-transform: uppercase;
          color: $solidWhite;
          letter-spacing: .2rem;
+      }
+      .text {
+         color: #CB8B44;
       }
       .stage {
          text-align: center;
@@ -123,7 +128,7 @@ header {
    display: inline-block;
    margin-left: -.7rem;
    margin-right: -.7rem;
-   color: #aba780;
+   color: #474543;
    text-transform: uppercase;
    // animation: flip 2s infinite;
    // animation-delay: calc(.2s * var(--i));

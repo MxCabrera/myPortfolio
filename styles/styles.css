@@ -423,7 +423,7 @@ header {
 }
 header div h1 {
   color: #3F422F;
-  text-shadow: -2px -2px 0 #eae4e0, 2px -2px 0 #eae4e0, -2px 2px 0 #eae4e0, 2px 2px 0 #eae4e0;
+  text-shadow: -2px -2px 0 #474543 2px -2px 0 #474543, -2px 2px 0 #474543, 2px 2px 0 #474543;
   margin: 0 auto;
   font-size: 6rem;
   font-family: "Antonio", sans-serif;
@@ -440,7 +440,7 @@ header div h1 .lastName {
   font-family: "Antonio", sans-serif;
   font-weight: 400;
   color: #EFEAE3;
-  text-shadow: -2px -2px 0 #eeefdc, 2px -2px 0 #eeefdc, -2px 2px 0 #eeefdc, 2px 2px 0 #eeefdc;
+  text-shadow: -2px -2px 0 #474543, 2px -2px 0 #474543, -2px 2px 0 #474543, 2px 2px 0 #474543;
 }
 header div .container {
   -webkit-box-pack: center;
@@ -459,12 +459,15 @@ header div .dud {
 header div h3 {
   text-align: center;
   font-family: "Jost", sans-serif;
-  color: #181818;
+  color: #CB8B44;
   margin-top: 2rem;
   font-size: 1.2rem;
   text-transform: uppercase;
   color: #474543;
   letter-spacing: 0.2rem;
+}
+header div .text {
+  color: #CB8B44;
 }
 header div .stage {
   text-align: center;
@@ -549,7 +552,7 @@ header div .stage i {
   display: inline-block;
   margin-left: -0.7rem;
   margin-right: -0.7rem;
-  color: #aba780;
+  color: #474543;
   text-transform: uppercase;
 }
 
