@@ -367,7 +367,7 @@ textarea:active {
 }
 
 .navbar {
-  background-color: #A08870;
+  background-color: #EFEAE3;
   font-family: "Antonio", sans-serif;
   position: sticky;
   top: 0;
@@ -415,11 +415,11 @@ textarea:active {
 }
 
 header {
-  background-color: #A08870;
+  background-color: #EFEAE3;
   background-size: cover;
   background-attachment: fixed;
   height: 90vh;
-  padding: 12rem 0;
+  padding: 13.5rem 0;
 }
 header div h1 {
   color: #3F422F;
@@ -439,7 +439,7 @@ header div h1 span {
 header div h1 .lastName {
   font-family: "Antonio", sans-serif;
   font-weight: 400;
-  color: #A08870;
+  color: #EFEAE3;
   text-shadow: -2px -2px 0 #eeefdc, 2px -2px 0 #eeefdc, -2px 2px 0 #eeefdc, 2px 2px 0 #eeefdc;
 }
 header div .container {
@@ -591,11 +591,11 @@ header div .stage i {
   margin-top: 1rem;
 }
 .aboutSection .aboutInfo .name {
-  color: #A08870;
+  color: #EFEAE3;
   font-size: 1.2rem;
   font-weight: 700;
   overflow: hidden;
-  border-right: 0.15em solid #A08870;
+  border-right: 0.15em solid #EFEAE3;
   white-space: nowrap;
   letter-spacing: 0.15rem;
   -webkit-animation: typing 3.5s steps(25, end), blink-caret 2s step-end infinite;
@@ -685,7 +685,7 @@ header div .stage i {
           flex-direction: column;
 }
 .projectContainer .project .projLang a {
-  color: #A08870;
+  color: #EFEAE3;
   width: 100%;
 }
 .projectContainer .project .projLang p {
@@ -710,7 +710,7 @@ header div .stage i {
   text-underline-offset: 8px;
 }
 .projectContainer .project .projLang button i {
-  color: #A08870;
+  color: #EFEAE3;
 }
 .projectContainer .project .projPic {
   width: 28%;
@@ -759,7 +759,7 @@ header div .stage i {
 }
 .skillsSection .skillsContainer .languageBox:hover i {
   text-shadow: 3px 3px 1px #808080;
-  color: #A08870;
+  color: #EFEAE3;
 }
 .skillsSection .skillsContainer i {
   color: #ffffff;
@@ -771,7 +771,7 @@ header div .stage i {
   text-align: center;
   text-transform: uppercase;
   margin-top: 0.7rem;
-  color: #A08870;
+  color: #EFEAE3;
   width: 100%;
 }
 
@@ -797,7 +797,7 @@ header div .stage i {
   font-size: 1.5rem;
 }
 .contactSection .socialContainer a i:hover {
-  color: #A08870;
+  color: #EFEAE3;
 }
 .contactSection .contactMessage {
   color: #ffffff;
@@ -946,7 +946,7 @@ footer .wrapper p {
     width: 90%;
   }
   .navbar .nav-menu.active {
-    background-color: #A08870;
+    background-color: #EFEAE3;
     left: 0px;
     border-top: 1px solid #ffffff;
     height: 60vh;
