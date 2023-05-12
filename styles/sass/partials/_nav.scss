@@ -16,6 +16,17 @@
       .visibility {
          display: none;
       }
+      .display a {
+         width: 10%;
+      }
+      .logoContainer {
+         width: 90%;
+         margin: 0 auto;
+         .logoNav {
+            width: 100%;
+            margin-bottom: -0.5rem;
+         }
+      }
       .display,
       .hamburger {
          display: none;
@@ -26,6 +37,9 @@
       width: 80%;
       margin: 0 auto;
       align-items: center;
+      h2 {
+         width: 6%;
+      }
       h2 a {
          color: $solidWhite;
       }

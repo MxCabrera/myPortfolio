@@ -389,6 +389,17 @@ textarea:active {
 .navbar .hiddenFlex .visibility {
   display: none;
 }
+.navbar .hiddenFlex .display a {
+  width: 10%;
+}
+.navbar .hiddenFlex .logoContainer {
+  width: 90%;
+  margin: 0 auto;
+}
+.navbar .hiddenFlex .logoContainer .logoNav {
+  width: 100%;
+  margin-bottom: -0.5rem;
+}
 .navbar .hiddenFlex .display,
 .navbar .hiddenFlex .hamburger {
   display: none;
@@ -400,6 +411,9 @@ textarea:active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.navbar .navContainer h2 {
+  width: 6%;
 }
 .navbar .navContainer h2 a {
   color: #474543;
