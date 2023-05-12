@@ -34,10 +34,10 @@ header {
             font-weight: 400;
             color: $quaternary;
             text-shadow:
-                  -2px -2px 0 #886043,
-                  2px -2px 0 #886043,
-                  -2px 2px 0 #886043,
-                  2px 2px 0 #886043;
+                  -2px -2px 0 #eeefdc,
+                  2px -2px 0 #eeefdc,
+                  -2px 2px 0 #eeefdc,
+                  2px 2px 0 #eeefdc;
          }
       }
       .container {
@@ -123,7 +123,7 @@ header {
    display: inline-block;
    margin-left: -1rem;
    margin-right: -1rem;
-   color: #CABCAB;
+   color: #729cba;
    text-transform: uppercase;
    // animation: flip 2s infinite;
    // animation-delay: calc(.2s * var(--i))

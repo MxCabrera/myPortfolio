@@ -440,7 +440,7 @@ header div h1 .lastName {
   font-family: "Antonio", sans-serif;
   font-weight: 400;
   color: #Ba9173;
-  text-shadow: -2px -2px 0 #886043, 2px -2px 0 #886043, -2px 2px 0 #886043, 2px 2px 0 #886043;
+  text-shadow: -2px -2px 0 #eeefdc, 2px -2px 0 #eeefdc, -2px 2px 0 #eeefdc, 2px 2px 0 #eeefdc;
 }
 header div .container {
   -webkit-box-pack: center;
@@ -549,7 +549,7 @@ header div .stage i {
   display: inline-block;
   margin-left: -1rem;
   margin-right: -1rem;
-  color: #CABCAB;
+  color: #729cba;
   text-transform: uppercase;
 }
 
