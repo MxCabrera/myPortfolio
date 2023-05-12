@@ -34,7 +34,9 @@
          a {
             color: $solidWhite;
             &:hover {
-               color: $senary;
+               color: #CB8B44;
+               text-decoration: line-through;
+               transition: 1s ease;
             }
          }
       }
