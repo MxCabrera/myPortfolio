@@ -327,41 +327,47 @@ textarea:active {
   color: #BFC0C0;
   text-decoration: none;
   letter-spacing: 1px;
+  z-index: 1000;
+}
+.appButton a:hover {
+  color: white;
 }
 
 #button-2 {
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  margin-top: 2rem;
 }
 
-#button-2 a {
+#button-2 .slideButton {
   position: relative;
   -webkit-transition: all 0.35s ease-Out;
   transition: all 0.35s ease-Out;
+  padding-bottom: 0.2rem;
 }
 
 #slide {
   width: 100%;
   height: 100%;
   left: -200px;
-  background: #BFC0C0;
   position: absolute;
   -webkit-transition: all 0.35s ease-Out;
   transition: all 0.35s ease-Out;
   bottom: 0;
+  background-color: #1b4480;
 }
 
 #button-2:hover #slide {
   left: 0;
 }
 
-#button-2:hover a {
-  color: #2D3142;
+#button-2:hover .slideButton {
+  color: white;
 }
 
 .navbar {
-  background-color: #93e9be;
+  background-color: #e5bd77;
   font-family: "Antonio", sans-serif;
   position: sticky;
   top: 0;
@@ -405,18 +411,19 @@ textarea:active {
   color: #ffffff;
 }
 .navbar .navContainer li a:hover {
-  color: #0f0f0f;
+  color: #1b4480;
 }
 
 header {
-  background-image: url(../../../assets/images.jpg);
-  background: -webkit-gradient(linear, left top, left bottom, from(#93e9be), color-stop(#93e9be), color-stop(rgb(108, 173, 141)), to(#0f0f0f));
-  background: linear-gradient(180deg, #93e9be, #93e9be, rgb(108, 173, 141), #0f0f0f);
+  background-color: #e5bd77;
+  background-size: cover;
+  background-attachment: fixed;
   height: 90vh;
   padding: 10rem 0;
 }
 header div h1 {
-  color: #ffffff;
+  color: #1b4480;
+  text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff;
   margin: 0 auto;
   font-size: 8rem;
   font-family: "Antonio", sans-serif;
@@ -429,7 +436,7 @@ header div h1 {
 header div h1 span {
   font-family: "Antonio", sans-serif;
   font-weight: 400;
-  color: #93e9be;
+  color: #e5bd77;
   text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff;
 }
 header div .container {
@@ -449,7 +456,7 @@ header div .dud {
 header div h3 {
   text-align: center;
   font-family: "Jost", sans-serif;
-  color: #0f0f0f;
+  color: #181818;
   margin-top: 2rem;
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -529,8 +536,39 @@ header div .stage i {
             transform: translateY(25px);
   }
 }
+.waviy {
+  position: relative;
+  margin: 0 auto;
+}
+
+.waviy .spin {
+  position: relative;
+  display: inline-block;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  color: #dfd0bb;
+  text-transform: uppercase;
+  -webkit-animation: flip 2s infinite;
+          animation: flip 2s infinite;
+  -webkit-animation-delay: calc(0.2s * var(--i));
+          animation-delay: calc(0.2s * var(--i));
+}
+
+@-webkit-keyframes flip {
+  0%, 80% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+
+@keyframes flip {
+  0%, 80% {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
 .aboutSection {
-  background-color: #0f0f0f;
+  background-color: #181818;
 }
 .aboutSection h2 {
   color: #ffffff;
@@ -542,7 +580,7 @@ header div .stage i {
   margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #93e9be;
+  border: 3px solid #1b4480;
 }
 .aboutSection .aboutPic img {
   height: 20rem;
@@ -554,11 +592,11 @@ header div .stage i {
   margin-top: 1rem;
 }
 .aboutSection .aboutInfo .name {
-  color: #93e9be;
+  color: #e5bd77;
   font-size: 1.2rem;
   font-weight: 700;
   overflow: hidden;
-  border-right: 0.15em solid #93e9be;
+  border-right: 0.15em solid #e5bd77;
   white-space: nowrap;
   letter-spacing: 0.15rem;
   -webkit-animation: typing 3.5s steps(25, end), blink-caret 2s step-end infinite;
@@ -573,20 +611,8 @@ header div .stage i {
   letter-spacing: 0.1rem;
   line-height: 1.5rem;
 }
-.aboutSection .aboutInfo button {
-  margin-top: 1rem;
-  background-color: #0f0f0f;
-  border: 1px solid #ffffff;
-  padding: 1rem 2rem;
-}
-.aboutSection .aboutInfo button a {
+.aboutSection .aboutInfo .appButton a:hover {
   color: white;
-  font-family: "Antonio", sans-serif;
-  text-transform: uppercase;
-}
-.aboutSection .aboutInfo button:hover {
-  background-color: #93e9be;
-  color: #070707;
 }
 
 .projectSection {
@@ -631,6 +657,7 @@ header div .stage i {
   font-family: "Antonio", sans-serif;
   width: 100%;
   font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 .projectContainer .project .projLang,
 .projectContainer .project .projSum {
@@ -656,7 +683,7 @@ header div .stage i {
           flex-direction: column;
 }
 .projectContainer .project .projLang a {
-  color: #93e9be;
+  color: #e5bd77;
   width: 100%;
 }
 .projectContainer .project .projLang p {
@@ -676,11 +703,12 @@ header div .stage i {
   letter-spacing: 0.2rem;
 }
 .projectContainer .project .projLang button:hover {
-  color: #93e9be;
+  color: #1b4480;
   text-decoration: underline;
+  text-underline-offset: 8px;
 }
 .projectContainer .project .projLang button i {
-  color: #93e9be;
+  color: #e5bd77;
 }
 .projectContainer .project .projPic {
   width: 28%;
@@ -691,7 +719,7 @@ header div .stage i {
 }
 
 .skillsSection {
-  background-color: #0f0f0f;
+  background-color: #1b4480;
   color: #ffffff;
 }
 .skillsSection h2 {
@@ -729,18 +757,20 @@ header div .stage i {
 }
 .skillsSection .skillsContainer .languageBox:hover i {
   text-shadow: 3px 3px 1px #808080;
-  color: #93e9be;
+  color: #e5bd77;
 }
 .skillsSection .skillsContainer i {
   color: #ffffff;
   text-align: center;
   font-size: 2rem;
+  width: 100%;
 }
 .skillsSection .skillsContainer span {
   text-align: center;
   text-transform: uppercase;
   margin-top: 0.7rem;
-  color: #93e9be;
+  color: #e5bd77;
+  width: 100%;
 }
 
 .contactSection {
@@ -765,7 +795,7 @@ header div .stage i {
   font-size: 1.5rem;
 }
 .contactSection .socialContainer a i:hover {
-  color: #93e9be;
+  color: #e5bd77;
 }
 .contactSection .contactMessage {
   color: #ffffff;
@@ -799,19 +829,20 @@ header div .stage i {
   height: 5rem;
   padding: 0.5rem;
 }
-.contactSection form button {
+.contactSection form .appButton {
   margin: 0 auto;
-  margin-top: 1rem;
-  color: #070707;
-  border: 1px solid #ffffff;
-  background-color: #93e9be;
-  width: 50%;
-  padding: 0.7rem 0;
-  text-transform: uppercase;
 }
-.contactSection form button:hover {
-  background-color: #070707;
-  color: #ffffff;
+.contactSection form .appButton:hover button {
+  background-color: rgba(255, 255, 255, 0);
+}
+.contactSection form button {
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  font-family: "Antonio", san-serif;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: white;
 }
 
 footer {
@@ -913,8 +944,8 @@ footer .wrapper p {
     width: 90%;
   }
   .navbar .nav-menu.active {
-    background: -webkit-gradient(linear, left top, left bottom, from(#93e9be), color-stop(#93e9be), to(rgb(108, 173, 141)));
-    background: linear-gradient(180deg, #93e9be, #93e9be, rgb(108, 173, 141));
+    background: -webkit-gradient(linear, left top, left bottom, from(#e5bd77), color-stop(#e5bd77), to(rgb(108, 173, 141)));
+    background: linear-gradient(180deg, #e5bd77, #e5bd77, rgb(108, 173, 141));
     left: 0px;
     border-top: 1px solid #ffffff;
     border-bottom: 1px solid #ffffff;

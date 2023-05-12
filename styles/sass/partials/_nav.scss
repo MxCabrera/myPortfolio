@@ -2,6 +2,7 @@
 
 .navbar {
    background-color: $quaternary;
+   // background-color: $senary;
    font-family: 'Antonio', sans-serif;
    position: sticky;
    top: 0;
@@ -33,7 +34,7 @@
          a {
             color: $solidWhite;
             &:hover {
-               color: $primary;
+               color: $senary;
             }
          }
       }

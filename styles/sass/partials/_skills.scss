@@ -1,7 +1,8 @@
 // skills styles //
 
 .skillsSection {
-   background-color: $primary;
+   // background-color: $primary;
+   background-color: $senary;
    color: $solidWhite;
    h2 {
       // text-align: center;
@@ -31,12 +32,14 @@
          color: $solidWhite;
          text-align: center;
          font-size: 2rem;
+         width: 100%;
       }
       span {
          text-align: center;
          text-transform: uppercase;
          margin-top: 0.7rem;
          color: $quaternary;
+         width: 100%;
       }
    }
 }

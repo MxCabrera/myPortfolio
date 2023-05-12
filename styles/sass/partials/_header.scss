@@ -1,12 +1,23 @@
 // header styles //
 header {
-   background-image: url(../../../assets/images.jpg);
-   background: linear-gradient(180deg,$quaternary, $quaternary, rgb(108, 173, 141), $primary);
+   // background-image: url(../assets/images.jpg);
+   // background: linear-gradient(180deg, $quaternary,$quaternary, rgb(108, 173, 141), $primary);
+   background-color: $quaternary;
+   // background: linear-gradient(180deg,$quaternary, $quaternary, rgb(108, 173, 141), $primary), url(../assets/images.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+
    height: 90vh;
    padding: 10rem 0;
    div {      
       h1 {
-         color: $solidWhite;
+         // color: $solidWhite;
+         color: $senary;
+         text-shadow:
+            -2px -2px 0 $solidWhite,
+            2px -2px 0 $solidWhite,
+            -2px 2px 0 $solidWhite,
+            2px 2px 0 $solidWhite;
          margin: 0 auto;
          font-size: 8rem;
          font-family: 'Antonio', sans-serif;
@@ -96,5 +107,29 @@ header {
 
    100% {
       transform: translateY(25px);
+   }
+}
+
+.waviy {
+   position: relative;
+   margin: 0 auto;
+}
+
+.waviy .spin {
+   position: relative;
+   display: inline-block;
+   margin-left: -1rem;
+   margin-right: -1rem;
+   color: #dfd0bb;
+   text-transform: uppercase;
+   animation: flip 2s infinite;
+   animation-delay: calc(.2s * var(--i))
+}
+
+@keyframes flip {
+
+   0%,
+   80% {
+      transform: rotateY(360deg)
    }
 }
