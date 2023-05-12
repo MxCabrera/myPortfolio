@@ -423,7 +423,7 @@ header {
 }
 header div h1 {
   color: #1b4480;
-  text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff;
+  text-shadow: -2px -2px 0 #d6cac1, 2px -2px 0 #d6cac1, -2px 2px 0 #d6cac1, 2px 2px 0 #d6cac1;
   margin: 0 auto;
   font-size: 8rem;
   font-family: "Antonio", sans-serif;
