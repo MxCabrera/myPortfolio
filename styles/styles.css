@@ -425,7 +425,7 @@ header div h1 {
   color: #3F422F;
   text-shadow: -2px -2px 0 #eae4e0, 2px -2px 0 #eae4e0, -2px 2px 0 #eae4e0, 2px 2px 0 #eae4e0;
   margin: 0 auto;
-  font-size: 8rem;
+  font-size: 6rem;
   font-family: "Antonio", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
@@ -547,8 +547,8 @@ header div .stage i {
 .waviy .spin {
   position: relative;
   display: inline-block;
-  margin-left: -1rem;
-  margin-right: -1rem;
+  margin-left: -0.7rem;
+  margin-right: -0.7rem;
   color: #aba780;
   text-transform: uppercase;
 }
@@ -668,6 +668,9 @@ header div .stage i {
 .projectContainer .project .projSum p {
   width: 100%;
   font-size: 1.2rem;
+}
+.projectContainer .project .projSum .minha {
+  color: white;
 }
 .projectContainer .project .projLangs {
   padding-top: 1rem;

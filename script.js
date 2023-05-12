@@ -46,7 +46,7 @@ app.projects = [
 {
    name: 'The Ultimate Watch List',
    image: './assets/_watchList.png',
-   summary: 'An app that utilizes 2 TV Maze API endpoints to create a user search feature to check the best tv shows based off of what the user searches, as well as a show all tv shows in pages features. Created with my project partner, <a href="https://www.heyitsminha.ca/">Minha!</a>',
+      summary: 'An app that utilizes 2 TV Maze API endpoints to create a user search feature to check the best tv shows based off of what the user searches, as well as a show all tv shows in pages features. Created with my project partner, <a class="minha" href="https://helloitsminha.com/">Minha!</a>',
    livelink: 'https://theultimatewatchlist.netlify.app/',
    github: 'https://github.com/team-minha-and-miguel/project-2',
    langUsed: [
