@@ -120,10 +120,11 @@
          }
       }
       .nav-menu.active {
-         background: linear-gradient(180deg, $quaternary, $quaternary, rgb(108, 173, 141));
+         // background: linear-gradient(180deg, $quaternary, $quaternary, rgb(108, 173, 141));
+         background-color: $quaternary;
          left: 0px;
          border-top: 1px solid $solidWhite;
-         border-bottom: 1px solid $solidWhite;
+         // border-bottom: 1px solid $solidWhite;
          height: 60vh;
          justify-content: space-evenly;
       }

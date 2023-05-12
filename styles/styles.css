@@ -355,7 +355,7 @@ textarea:active {
   -webkit-transition: all 0.35s ease-Out;
   transition: all 0.35s ease-Out;
   bottom: 0;
-  background-color: #1b4480;
+  background-color: #A08870;
 }
 
 #button-2:hover #slide {
@@ -367,7 +367,7 @@ textarea:active {
 }
 
 .navbar {
-  background-color: #Ab9381;
+  background-color: #A08870;
   font-family: "Antonio", sans-serif;
   position: sticky;
   top: 0;
@@ -411,18 +411,18 @@ textarea:active {
   color: #ffffff;
 }
 .navbar .navContainer li a:hover {
-  color: #1b4480;
+  color: #3F422F;
 }
 
 header {
-  background-color: #Ab9381;
+  background-color: #A08870;
   background-size: cover;
   background-attachment: fixed;
   height: 90vh;
   padding: 10rem 0;
 }
 header div h1 {
-  color: #1b4480;
+  color: #3F422F;
   text-shadow: -2px -2px 0 #eae4e0, 2px -2px 0 #eae4e0, -2px 2px 0 #eae4e0, 2px 2px 0 #eae4e0;
   margin: 0 auto;
   font-size: 8rem;
@@ -439,7 +439,7 @@ header div h1 span {
 header div h1 .lastName {
   font-family: "Antonio", sans-serif;
   font-weight: 400;
-  color: #Ab9381;
+  color: #A08870;
   text-shadow: -2px -2px 0 #eeefdc, 2px -2px 0 #eeefdc, -2px 2px 0 #eeefdc, 2px 2px 0 #eeefdc;
 }
 header div .container {
@@ -579,7 +579,7 @@ header div .stage i {
   margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
-  border: 3px solid #1b4480;
+  border: 3px solid #3F422F;
 }
 .aboutSection .aboutPic img {
   height: 20rem;
@@ -591,11 +591,11 @@ header div .stage i {
   margin-top: 1rem;
 }
 .aboutSection .aboutInfo .name {
-  color: #Ab9381;
+  color: #A08870;
   font-size: 1.2rem;
   font-weight: 700;
   overflow: hidden;
-  border-right: 0.15em solid #Ab9381;
+  border-right: 0.15em solid #A08870;
   white-space: nowrap;
   letter-spacing: 0.15rem;
   -webkit-animation: typing 3.5s steps(25, end), blink-caret 2s step-end infinite;
@@ -682,7 +682,7 @@ header div .stage i {
           flex-direction: column;
 }
 .projectContainer .project .projLang a {
-  color: #Ab9381;
+  color: #A08870;
   width: 100%;
 }
 .projectContainer .project .projLang p {
@@ -702,12 +702,12 @@ header div .stage i {
   letter-spacing: 0.2rem;
 }
 .projectContainer .project .projLang button:hover {
-  color: #1b4480;
+  color: #3F422F;
   text-decoration: underline;
   text-underline-offset: 8px;
 }
 .projectContainer .project .projLang button i {
-  color: #Ab9381;
+  color: #A08870;
 }
 .projectContainer .project .projPic {
   width: 28%;
@@ -718,7 +718,7 @@ header div .stage i {
 }
 
 .skillsSection {
-  background-color: #1b4480;
+  background-color: #181818;
   color: #ffffff;
 }
 .skillsSection h2 {
@@ -756,7 +756,7 @@ header div .stage i {
 }
 .skillsSection .skillsContainer .languageBox:hover i {
   text-shadow: 3px 3px 1px #808080;
-  color: #Ab9381;
+  color: #A08870;
 }
 .skillsSection .skillsContainer i {
   color: #ffffff;
@@ -768,7 +768,7 @@ header div .stage i {
   text-align: center;
   text-transform: uppercase;
   margin-top: 0.7rem;
-  color: #Ab9381;
+  color: #A08870;
   width: 100%;
 }
 
@@ -794,7 +794,7 @@ header div .stage i {
   font-size: 1.5rem;
 }
 .contactSection .socialContainer a i:hover {
-  color: #Ab9381;
+  color: #A08870;
 }
 .contactSection .contactMessage {
   color: #ffffff;
@@ -943,11 +943,9 @@ footer .wrapper p {
     width: 90%;
   }
   .navbar .nav-menu.active {
-    background: -webkit-gradient(linear, left top, left bottom, from(#Ab9381), color-stop(#Ab9381), to(rgb(108, 173, 141)));
-    background: linear-gradient(180deg, #Ab9381, #Ab9381, rgb(108, 173, 141));
+    background-color: #A08870;
     left: 0px;
     border-top: 1px solid #ffffff;
-    border-bottom: 1px solid #ffffff;
     height: 60vh;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
