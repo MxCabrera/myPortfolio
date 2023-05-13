@@ -71,7 +71,7 @@ textarea {
    display: inline-flex;
    height: 40px;
    width: 150px;
-   border: 2px solid #BFC0C0;
+   border: 2px solid #474543;
    margin: 20px 20px 20px 20px;
    color: #BFC0C0;
    text-transform: uppercase;
@@ -81,6 +81,9 @@ textarea {
    align-items: center;
    justify-content: center;
    overflow: hidden;
+   &:hover {
+      border: 2px solid white;
+   }
    a {
       color: #BFC0C0;
       text-decoration: none;
@@ -112,7 +115,7 @@ textarea {
    position: absolute;
    transition: all .35s ease-Out;
    bottom: 0;
-   background-color:#A08870;
+   background-color:#CB8B44;
    // background-color:#1b4480;
 
    // background-color: black;

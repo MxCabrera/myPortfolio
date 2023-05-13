@@ -308,7 +308,7 @@ textarea:active {
   display: inline-flex;
   height: 40px;
   width: 150px;
-  border: 2px solid #BFC0C0;
+  border: 2px solid #474543;
   margin: 20px 20px 20px 20px;
   color: #BFC0C0;
   text-transform: uppercase;
@@ -322,6 +322,9 @@ textarea:active {
       -ms-flex-pack: center;
           justify-content: center;
   overflow: hidden;
+}
+.appButton:hover {
+  border: 2px solid white;
 }
 .appButton a {
   color: #BFC0C0;
@@ -355,7 +358,7 @@ textarea:active {
   -webkit-transition: all 0.35s ease-Out;
   transition: all 0.35s ease-Out;
   bottom: 0;
-  background-color: #A08870;
+  background-color: #CB8B44;
 }
 
 #button-2:hover #slide {
@@ -492,7 +495,7 @@ header div .stage {
 }
 header div .stage a {
   width: 100%;
-  color: #070707;
+  color: #EFEAE3;
 }
 header div .stage i {
   font-size: 2.5rem;
@@ -594,7 +597,7 @@ header div .stage i {
 }
 .aboutSection .aboutPic {
   width: 25%;
-  margin-bottom: 1rem;
+  margin-bottom: 2.5rem;
   margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
@@ -610,7 +613,7 @@ header div .stage i {
   margin-top: 1rem;
 }
 .aboutSection .aboutInfo .name {
-  color: #EFEAE3;
+  color: #CB8B44;
   font-size: 1.2rem;
   font-weight: 700;
   overflow: hidden;
@@ -623,7 +626,7 @@ header div .stage i {
   padding: 0;
 }
 .aboutSection .aboutInfo p {
-  color: #474543;
+  color: #EFEAE3;
   font-family: "Jost", sans-serif;
   padding: 1rem 0;
   letter-spacing: 0.1rem;
@@ -634,7 +637,7 @@ header div .stage i {
 }
 
 .projectSection {
-  background-color: #070707;
+  background-color: #EFEAE3;
 }
 .projectSection h2 {
   color: #474543;
@@ -704,7 +707,7 @@ header div .stage i {
           flex-direction: column;
 }
 .projectContainer .project .projLang a {
-  color: #EFEAE3;
+  color: #CB8B44;
   width: 100%;
 }
 .projectContainer .project .projLang p {
@@ -712,7 +715,7 @@ header div .stage i {
 }
 .projectContainer .project .projLang button {
   width: 100%;
-  background-color: #070707;
+  background-color: #EFEAE3;
   font-family: "Antonio", sans-serif;
   font-size: 1.2rem;
   border: none;
@@ -734,6 +737,7 @@ header div .stage i {
 .projectContainer .project .projPic {
   width: 28%;
   margin: 0 auto 0 0;
+  border: 2px solid #474543;
 }
 .projectContainer .project .projPic img {
   width: 100%;
@@ -781,7 +785,7 @@ header div .stage i {
   color: #EFEAE3;
 }
 .skillsSection .skillsContainer i {
-  color: #474543;
+  color: #CB8B44;
   text-align: center;
   font-size: 2rem;
   width: 100%;
@@ -795,7 +799,7 @@ header div .stage i {
 }
 
 .contactSection {
-  background-color: #070707;
+  background-color: #EFEAE3;
 }
 .contactSection h2 {
   color: #474543;
@@ -809,7 +813,7 @@ header div .stage i {
   text-align: center;
 }
 .contactSection .socialContainer a {
-  color: #474543;
+  color: #CB8B44;
   padding: 0 1rem;
 }
 .contactSection .socialContainer a i {
@@ -863,11 +867,11 @@ header div .stage i {
   font-family: "Antonio", san-serif;
   text-transform: uppercase;
   font-size: 1.2rem;
-  color: white;
+  color: #474543;
 }
 
 footer {
-  background-color: #070707;
+  background-color: #EFEAE3;
 }
 footer .wrapper p {
   color: #474543;

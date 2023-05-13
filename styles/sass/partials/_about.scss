@@ -8,7 +8,7 @@
    }
    .aboutPic {
       width: 25%;
-      margin-bottom: 1rem;
+      margin-bottom: 2.5rem;
       margin-top: 2rem;
       margin-left: auto;
       margin-right: auto;
@@ -22,7 +22,7 @@
    .aboutInfo {
       margin-top: 1rem;
       .name {
-         color: $quaternary;
+         color: $sepnary;
          font-size: 1.2rem;
          font-weight: 700;
          overflow: hidden;
@@ -36,7 +36,7 @@
          padding: 0;
       }
       p { 
-         color: $solidWhite;
+         color: $secondary;
          font-family: 'Jost', sans-serif;
          padding: 1rem 0;
          letter-spacing: 0.1rem;
