@@ -29,7 +29,7 @@
       .projPic,
       .projLang,
       .projSum {
-         width: 30%;
+         width: 33%;
       }
       .projName {
          font-family: 'Antonio', sans-serif;
@@ -90,11 +90,12 @@
          }
       }
       .projPic {
-         width: 28%;
+         width: 30%;
          margin: 0 auto 0 0;
-         border: 2px solid $solidWhite;
+         // border: 2px solid $solidWhite;
          img {
             width: 100%;
+            object-fit: cover;
          }
       }
    }
