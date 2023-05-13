@@ -679,6 +679,8 @@ header div .stage i {
   width: 100%;
   font-size: 1.5rem;
   margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
 }
 .projectContainer .project .projLang,
 .projectContainer .project .projSum {
@@ -1007,7 +1009,7 @@ footer .wrapper p {
     color: black;
   }
   header {
-    padding: 6rem 0;
+    padding: 8rem 0;
   }
   header div h1 {
     width: 80%;
