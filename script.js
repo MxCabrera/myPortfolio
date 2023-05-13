@@ -126,14 +126,14 @@ app.addListeners = () => {
             <img src="${project.image}" alt="${project.name}">
          </div>
          <div class="projLang">
-            <a href="${project.livelink}">
+            <a href="${project.livelink}" target="_blank">
                <h3 class="projName">${project.name}</h3>
             </a>
             <div class="projButtons">
-               <a class="link" "href="${project.livelink}">
+               <a class="link" href="${project.livelink}" target="_blank">
                   <button>Live Link</button>
                </a>
-               <a class="link" href="${project.github}">
+               <a class="link" href="${project.github}" target="_blank">
                   <button>GitHub</button>
                </a>
             </div>

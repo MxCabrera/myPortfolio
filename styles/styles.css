@@ -729,8 +729,6 @@ header div .stage i {
 }
 .projectContainer .project .projLang button:hover {
   color: #3F422F;
-  text-decoration: underline;
-  text-underline-offset: 8px;
 }
 .projectContainer .project .projLang button i {
   color: #EFEAE3;
