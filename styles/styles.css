@@ -880,6 +880,9 @@ footer .wrapper p {
   .navbar .navContainer {
     width: 62%;
   }
+  .hiddenFlex .logoContainer {
+    width: 100%;
+  }
   .aboutSection .aboutInfo .name {
     width: 45%;
   }
@@ -894,7 +897,7 @@ footer .wrapper p {
     width: 70%;
   }
   header div h1 {
-    width: 7 0%;
+    width: 70%;
   }
   .aboutSection .aboutPic img {
     height: 15rem;
@@ -948,6 +951,13 @@ footer .wrapper p {
   }
   .navbar .hiddenFlex .display a {
     color: #474543;
+  }
+  .navbar .hiddenFlex .display a .mobileLogo {
+    width: 10%;
+    margin: 0 auto;
+  }
+  .navbar .hiddenFlex .display a .mobileLogo .logoNav {
+    width: 100%;
   }
   .navbar .nav-menu {
     background-color: #474543;

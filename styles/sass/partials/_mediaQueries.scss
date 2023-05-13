@@ -7,6 +7,11 @@
          width: 62%;
       }
    }
+   .hiddenFlex {
+      .logoContainer {
+         width: 100%;
+      }
+   }
    .aboutSection {
       .aboutInfo {
          .name {
@@ -39,7 +44,7 @@
    }
    header {
       div h1 {
-         width: 7 0%;
+         width: 70%;
       }
    }
 
@@ -103,6 +108,13 @@
          }
          .display a {
             color: $solidWhite;
+            .mobileLogo {
+               width: 10%;
+               margin: 0 auto;
+               .logoNav {
+                  width: 100%;
+               }
+            }
          }
       }
       .nav-menu {
