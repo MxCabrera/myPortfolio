@@ -850,11 +850,21 @@ header div .stage i {
   height: 2rem;
   margin-bottom: 0.7rem;
   padding: 0.5rem;
+  border-radius: 0;
+  border: none;
+}
+.contactSection form input:focus {
+  border: 3px solid #CB8B44;
 }
 .contactSection form textarea {
   width: 100%;
   height: 5rem;
+  border-radius: 0;
   padding: 0.5rem;
+  border: none;
+}
+.contactSection form textarea:focus, .contactSection form textarea:active {
+  border: 3px solid #CB8B44;
 }
 .contactSection form .appButton {
   margin: 0 auto;
