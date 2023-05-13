@@ -416,7 +416,7 @@ textarea:active {
           align-items: center;
 }
 .navbar .navContainer h2 {
-  width: 6%;
+  width: 8%;
 }
 .navbar .navContainer h2 a {
   color: #474543;
@@ -436,7 +436,6 @@ textarea:active {
 header {
   background-color: #EFEAE3;
   background-size: cover;
-  background-attachment: fixed;
   height: 90vh;
   padding: 13.5rem 0;
 }

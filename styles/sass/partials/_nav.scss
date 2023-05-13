@@ -1,6 +1,7 @@
 // navigation styles // 
 
 .navbar {
+   // background-color: #F0F0F0;
    background-color: $quaternary;
    // background-color: $senary;
    font-family: 'Antonio', sans-serif;
@@ -38,7 +39,7 @@
       margin: 0 auto;
       align-items: center;
       h2 {
-         width: 6%;
+         width: 8%;
       }
       h2 a {
          color: $solidWhite;
