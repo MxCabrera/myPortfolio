@@ -369,6 +369,14 @@ textarea:active {
   color: white;
 }
 
+.aboutSection .aboutMe {
+  color: #EFEAE3;
+}
+
+.skillsSection .mySkills {
+  color: #EFEAE3;
+}
+
 .navbar {
   background-color: #EFEAE3;
   font-family: "Antonio", sans-serif;

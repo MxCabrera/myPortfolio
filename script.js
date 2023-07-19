@@ -54,6 +54,16 @@ app.projects = [
    ]
 },
 {
+   name: 'Box Office Boffo',
+   image: './assets/boxOfficeBoffo.JPG',
+      summary: 'A movie application that uses data from the IMBD API to create a quiz that challenges users to rank the 10 highest grossing summer movie of the year out of 20 choices. User can choose a year to guess and appends info about each movie. App will send user a score and answer sheet based on how accurate they are to the correct list. You can compare your list with other lists ',
+   livelink: 'https://project4-group5.netlify.app/',
+   github: 'https://github.com/project4-group5/boxOfficeBoffo',
+   langUsed: [
+      "JavaScript", "HTML", "CSS", "API", "FireBase", "React" 
+   ]
+},
+{
    name: 'Battle Rockets',
    image: './assets/_battleRockets.png',
    summary: 'A 2-player battleship-style game. Destroy your opponents rockets before they do! Take turns between your friend and each hit displays info from the SpaceX API.',
